@@ -3,3 +3,6 @@
 
 # Virtual environment folder.
 virtualenv
+
+# Compiled Python files.
+*.pyc

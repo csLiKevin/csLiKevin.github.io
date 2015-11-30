@@ -1,0 +1,36 @@
+.resume {
+  @indent-width: 20px;
+
+  .mdl-layout__content {
+    margin: 0 40px;
+  }
+
+  .indent-1 {
+    margin-left: @indent-width;
+  }
+
+  .important-text {
+    font-weight: 700;
+  }
+
+  .secondary-text {
+    font-size: 12px;
+  }
+
+  .school {
+    @school-logo-height: 34px;
+    @school-logo-width: 29px;
+    .logo {
+      height: @school-logo-height;
+      width: @school-logo-width;
+    }
+
+    .degrees {
+      margin-left: @school-logo-width;
+    }
+
+    ul {
+      margin: 0;
+    }
+  }
+}
