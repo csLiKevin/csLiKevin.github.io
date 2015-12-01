@@ -1,12 +1,13 @@
 .resume {
-  @indent-width: 20px;
+  @indent-size: 20px;
+  @logo-height: 34px;
 
-  .mdl-layout__content {
-    margin: 0 40px;
+  .content {
+    margin: 0 @indent-size * 4;
   }
 
   .indent-1 {
-    margin-left: @indent-width;
+    margin-left: @indent-size;
   }
 
   .important-text {
@@ -17,20 +18,41 @@
     font-size: 12px;
   }
 
+  .logo {
+    height: @logo-height;
+  }
+
+  .contact-card {
+    .website {
+      margin-left: 10px;
+    }
+  }
+
   .school {
-    @school-logo-height: 34px;
-    @school-logo-width: 29px;
-    .logo {
-      height: @school-logo-height;
-      width: @school-logo-width;
+    ul {
+      margin: 0;
     }
 
     .degrees {
-      margin-left: @school-logo-width;
-    }
+      margin-bottom: @indent-size;
 
-    ul {
-      margin: 0;
+      .degree-icon {
+        font-size: 14px;
+      }
+
+      .degree-field {
+        .important-text();
+      }
+    }
+  }
+
+  .job {
+    .mdl-grid {
+      padding: 0;
+
+      .duration {
+        font-style: oblique;
+      }
     }
   }
 }

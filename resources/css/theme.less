@@ -1,9 +1,18 @@
 .resume {
-  background-color: #212121;
-  color: #FAFAFA;
+  @heading-color: #FFD180;
+  //@success-color: #4CAF50;
+  @success-color: #8BC34A;
+  @primary-text-color: #FAFAFA;
 
-  .mdl-typography--display-1 {
-    color: #4CAF50;
+  background-color: #212121;
+  color: @primary-text-color;
+
+  .muted-text () {
+    color: #BDBDBD;
+  }
+
+  .section-title {
+    color: @heading-color;
   }
 
   .mdl-layout__header {
@@ -11,6 +20,26 @@
   }
 
   .secondary-text {
-    color: #BDBDBD;
+    .muted-text();
+  }
+
+  .job {
+    .duration {
+      .muted-text();
+
+      .start {
+        color: @success-color;
+      }
+    }
+  }
+
+  .school {
+    .degree-icon {
+      color: @success-color;
+    }
+
+    .degree-field {
+      color: @heading-color;
+    }
   }
 }
