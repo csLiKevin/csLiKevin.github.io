@@ -1,13 +1,12 @@
 .resume {
   @indent-size: 20px;
   @logo-height: 34px;
+  @primary-font-weight: 400;
 
   .content {
-    margin: 0 @indent-size * 4;
-  }
-
-  .indent-1 {
-    margin-left: @indent-size;
+    @media (min-width: 840px) {
+      margin: 0 10%;
+    }
   }
 
   .important-text {
@@ -23,10 +22,6 @@
   }
 
   .school {
-    ul {
-      margin: 0;
-    }
-
     .degrees {
       margin-bottom: @indent-size;
 
@@ -41,11 +36,30 @@
   }
 
   .job {
-    .mdl-grid {
-      padding: 0;
+    .duration {
+      font-style: oblique;
+    }
+  }
 
-      .duration {
-        font-style: oblique;
+  .skill {
+    .important-text();
+    margin-bottom: @indent-size / 2;
+
+    .sub-skill {
+      .secondary-text();
+      font-weight: @primary-font-weight;
+      margin-left: @indent-size;
+    }
+  }
+
+  .school,
+  .job,
+  .skills {
+    &.mdl-grid {
+      padding: 0 0 0 @indent-size;
+
+      ul {
+        margin: 0;
       }
     }
   }
