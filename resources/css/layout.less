@@ -20,6 +20,11 @@
   .logo {
     height: @logo-height;
   }
+  i.logo {
+    // For using material-icons as logos.
+    font-size: @logo-height;
+    vertical-align: middle;
+  }
 
   .school {
     .degrees {
@@ -42,13 +47,19 @@
   }
 
   .skill {
-    .important-text();
-    margin-bottom: @indent-size / 2;
-
+    & > .name {
+      .important-text();
+        margin-bottom: @indent-size / 2;
+      }
     .sub-skill {
       .secondary-text();
       font-weight: @primary-font-weight;
-      margin-left: @indent-size;
+      & > .name {
+        margin-left: @indent-size / 2;
+      }
+      .detail {
+        margin-left: @indent-size;
+      }
     }
   }
 
