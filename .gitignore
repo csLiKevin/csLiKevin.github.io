@@ -1,8 +1,11 @@
 # IDE settings.
 .idea
 
-# Virtual environment folder.
-virtualenv
+# Node modules.
+node_modules/
 
-# Compiled Python files.
-*.pyc
+# Personal information.
+input/contact_info.json
+
+# Output files.
+output/
