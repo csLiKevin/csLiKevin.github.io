@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "combine_json": "node scripts/combine_json.js",
-    "new_json": "node_modules/.bin/hackmyresume NEW input/resume.json -f jrs",
+    "new_json": "node_modules/.bin/hackmyresume NEW input/base.json -f jrs",
     "validate_json": "node_modules/.bin/hackmyresume VALIDATE output/resume.json",
     "build_elegant": "node_modules/.bin/hackmyresume BUILD output/resume.json TO output/resume.html -t node_modules/jsonresume-theme-elegant",
     "move_html": "node scripts/move_html.js",
