@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "myresume",
   "version": "1.0.0",
   "description": "",
@@ -18,7 +19,7 @@
     "url": "git+https://github.com/csLiKevin/csLiKevin.github.io.git"
   },
   "author": "",
-  "license": "",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/csLiKevin/csLiKevin.github.io/issues"
   },
