@@ -156,6 +156,7 @@
         "jQuery",
         "AngularJS",
         "ReactJS",
+        "React Redux",
         "NodeJS"
       ]
     },
@@ -258,7 +259,11 @@
     {
       "name": "Books",
       "keywords": [
-        "Science Fiction"
+        "Fiction",
+        "Science Fiction",
+        "Isaac Asimov",
+        "Orson Scott Card",
+        "Ted Chiang"
       ]
     },
     {
@@ -266,9 +271,12 @@
       "keywords": [
         "PC",
         "League of Legends",
+        "Monster Hunter",
         "Nintendo 3DS",
+        "Pokémon",
         "Super Mario",
-        "Fire Emblem"
+        "Fire Emblem",
+        "Zelda"
       ]
     }
   ]

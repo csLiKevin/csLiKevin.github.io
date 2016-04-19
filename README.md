@@ -11,8 +11,8 @@ This is a project for to generating an online resume. Resume information is defi
 
 ##### Commands
 - `npm run new_json` - Generates a new JSON Resume template file in the [input](input) folder.
-- `npm run build_web` - Generates index.html using only the [base](input/base.json) JSON file.
-- `npm run build` - Generates index.html using the [base](input/base.json), contact info, and awards JSON file.
+- `npm run build_web` - Generates an index.html file using only the [base.json](input/base.json) file.
+- `npm run build` - Generates an index.html file using the [base.json](input/base.json), contact_info.json, and awards.json files.
 
 ##### Instructions
 1. Clone this repository.
