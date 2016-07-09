@@ -17,7 +17,7 @@ This is a project for to generating an online resume. Resume information is defi
 ##### Instructions
 1. Clone this repository.
 2. Navigate to the root directory of this repository.
-3. Install [NodeJS v4.2.4](https://nodejs.org/en/download/).
+3. Install [NodeJS v4.2.4](https://nodejs.org/en/download/). On Ubuntu based systems you need to install node via the terminal with `sudo apt-get install nodejs-legacy`.
 4. Run `npm install`.
 5. Create a new JSON Resume template file in the [input](input) folder with `npm run new_json`.
 6. File out the template file.

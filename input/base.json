@@ -45,9 +45,9 @@
       },
       "highlights": [
         "Technologies: Python, Django, Selenium, Javascript, AngularJS, ReactJS, NodeJS, CSS, Less, Bootstrap, Material UI, HTML, Apache, Vagrant, Docker, MySQL, MongoDB",
-        "Created new features to increase the platform value for clients and improve the client experience.",
-        "Improved the platform's client onboarding process and user interface experience to drive higher engagement with the platform.",
-        "Visually refreshed the platform by building UI components based on Material UI's philosophy and unified platform navigation.",
+        "Created new features in the platform to increase value being delivered to clients and improve their user experience.",
+        "Improved the platform's client onboarding process and user interface experience to drive higher engagement and retention within the platform.",
+        "Modernized the platform by adopting modern technologies such as ReactJS and refreshing the platform visually by building UI based on Material UI's design philosophy.",
         "Maintained, updated, improved, and refactored existing legacy code.",
         "Wrote user acceptance and unit tests.",
         "JIRA, Confluence, Slack, and GitHub was used to manage and organize workflow processes.",
@@ -275,6 +275,7 @@
       "keywords": [
         "PC",
         "League of Legends",
+        "Overwatch",
         "Monster Hunter",
         "Nintendo 3DS",
         "Pokémon",
