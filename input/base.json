@@ -45,14 +45,15 @@
       },
       "highlights": [
         "Technologies: Python, Django, Selenium, Javascript, AngularJS, ReactJS, NodeJS, CSS, Less, Bootstrap, Material UI, HTML, Apache, Vagrant, Docker, MySQL, MongoDB",
-        "Created new features in the platform to increase value being delivered to clients and improve their user experience.",
-        "Improved the platform's client onboarding process and user interface experience to drive higher engagement and retention within the platform.",
-        "Modernized the platform by adopting modern technologies such as ReactJS and refreshing the platform visually by building UI based on Material UI's design philosophy.",
-        "Maintained, updated, improved, and refactored existing legacy code.",
-        "Wrote user acceptance and unit tests.",
-        "JIRA, Confluence, Slack, and GitHub was used to manage and organize workflow processes.",
-        "Travis and Jenkins was used for continuous integration testing.",
-        "Worked together with a team of software engineers."
+        "Create new features in the platform to increase the value being delivered to clients and improve their user experience.",
+        "Improve the platform's client onboarding process and user interface experience to drive higher engagement and retention within the platform.",
+        "Modernize the platform by adopting modern technologies such as ReactJS and Redux.",
+        "Visually refreshing the platform by building UI based on Material UI's design philosophy.",
+        "Maintain, update, improve, and refactor existing legacy code.",
+        "Write user acceptance and unit tests.",
+        "JIRA, Confluence, Slack, and GitHub is used to manage and organize workflow processes.",
+        "Travis and Jenkins is used for continuous integration testing.",
+        "Work together with a team of software engineers."
       ]
     },
     {
@@ -70,14 +71,14 @@
         "region": "New York"
       },
       "highlights": [
-        "Helped build and design the codebase from scratch.",
+        "Help build and design the codebase from scratch.",
         "Technologies: Python, Django, Java, Javascript, CSS, Bootstrap, HTML, MySQL, SQLite, Apache, Nginx, Amazon Web Services.",
-        "Worked closely with the financial team in creating tools for streamlining their research effort.",
-        "Developed a client facing platform for clients to access the financial team's research material.",
-        "Developed an internal website used by the financial team used to organize and manage with their research process.",
-        "Setup and maintained the cloud infrastructure responsible for hosting PivotalPath's platform services.",
-        "JIRA, Confluence, HipChat, and GitHub was used to manage and organize workflow processes.",
-        "Worked together with a team of software engineers."
+        "Work closely with the financial team to understand what tools they need for streamlining their research effort.",
+        "Develop an outward facing platform for clients to access and interact with the financial team's research efforts.",
+        "Develop an internal facing platform for the financial team to organize and manage their research process.",
+        "Setup and maintain the cloud infrastructure responsible for hosting PivotalPath's platform services.",
+        "JIRA, Confluence, HipChat, and GitHub is used to manage and organize workflow processes.",
+        "Work together with a team of software engineers."
       ]
     },
     {
