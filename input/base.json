@@ -48,7 +48,7 @@
         "Create new features in the platform to increase the value being delivered to clients and improve their user experience.",
         "Improve the platform's client onboarding process and user interface experience to drive higher engagement and retention within the platform.",
         "Modernize the platform by adopting modern technologies such as ReactJS and Redux.",
-        "Visually refreshing the platform by building UI based on Material UI's design philosophy.",
+        "Visually refresh the platform by building a new UI based on Material UI's design philosophy.",
         "Maintain, update, improve, and refactor existing legacy code.",
         "Write user acceptance and unit tests.",
         "JIRA, Confluence, Slack, and GitHub is used to manage and organize workflow processes.",
@@ -275,6 +275,8 @@
       "name": "Video Games",
       "keywords": [
         "PC",
+        "Role Playing Games",
+        "Adventure Games",
         "League of Legends",
         "Overwatch",
         "Monster Hunter",
