@@ -3,10 +3,3 @@
 
 # Node modules.
 node_modules/
-
-# Personal information.
-input/contact_info.json
-input/awards.json
-
-# Output files.
-output/

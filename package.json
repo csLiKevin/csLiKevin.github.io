@@ -5,14 +5,9 @@
   "description": "",
   "main": "",
   "scripts": {
-    "combine_json": "node scripts/combine_json.js",
-    "new_json": "node_modules/.bin/hackmyresume NEW input/base.json -f jrs",
-    "validate_json": "node_modules/.bin/hackmyresume VALIDATE output/resume.json",
-    "build_elegant": "node_modules/.bin/hackmyresume BUILD output/resume.json TO output/resume.html -t node_modules/jsonresume-theme-elegant",
-    "move_html": "node scripts/move_html.js",
-    "build": "npm run combine_json && npm run build_elegant && npm run move_html",
-    "move_json": "node scripts/move_json.js",
-    "build_web": "npm run move_json && npm run build_elegant && npm run move_html"
+    "build": "node_modules/.bin/hackmyresume BUILD input/resume.json TO index.html -t node_modules/jsonresume-theme-elegant && node fix_dates.js",
+    "start": "node_modules/.bin/hackmyresume NEW input/resume.json -f jrs",
+    "validate": "node_modules/.bin/hackmyresume VALIDATE input/resume.json"
   },
   "repository": {
     "type": "git",
@@ -25,9 +20,11 @@
   },
   "homepage": "https://github.com/csLiKevin/csLiKevin.github.io#readme",
   "dependencies": {
-    "extend": "^3.0.0",
     "hackmyresume": "^1.8.0",
-    "jsonresume-theme-elegant": "^1.5.10",
-    "jsonresume-theme-kendall": "^0.1.11"
+    "jsonresume-theme-elegant": "^1.9.1",
+    "jsonresume-theme-eloquent": "^3.0.1",
+    "jsonresume-theme-kendall": "^0.1.15",
+    "jsonresume-theme-material": "^1.1.2",
+    "jsonresume-theme-spartacus": "^1.0.0"
   }
 }

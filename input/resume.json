@@ -7,7 +7,7 @@
     "phone": "",
     "degree": "Bachelors of Science Double Major",
     "website": "http://kevinli.us",
-    "summary": "Software engineer with a passion for problem solving, an eye for detail, and a strong mathematics background. Well organized, prompt, attentive and works well within a team or on solo projects. Interested in being part of innovative and technically challenging projects. Always looking for ways to improve as an engineer, eager to learn, and responsive to criticism.",
+    "summary": "Software engineer with a passion for problem solving, an eye for detail, and a strong mathematics background. Well organized, prompt, attentive and works well within a team or on solo projects. Interested in being part of innovative and technically challenging projects. Loves to tackle a wide range of problems. Always looking for ways to improve as an engineer, eager to learn, and responsive to criticism.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,12 +30,12 @@
   },
   "work": [
     {
-      "company": "Offerpop",
+      "company": "Wyng (formerly Offerpop)",
       "position": "Software Engineer",
-      "website": "https://www.offerpop.com/",
+      "website": "https://www.wyng.com/",
       "startDate": "2015-07-22",
       "__endDate": "",
-      "summary": "Offerpop's Visual UGC Marketing SaaS platform empowers brands to encourage and leverage user generated content at every stage of the buyer journey, improving marketing performance. Leading brands and agencies use Offerpop’s Visual UGC platform to create campaigns and promotions from a library of templates to inspire the creation of quality UGC, manage and leverage UGC across marketing channels, and build consumer profiles to improve segmentation and targeting. The company is headquartered in New York City, with offices in London.",
+      "summary": "Wyng is a marketing platform for brands and agencies to build and run campaigns that drive participation and elevate consumer influence. We powered the first Super Bowl hashtag commercial in 2011. Since then, we've continued to evolve our platform to align with shifts in consumer behavior through a robust library of campaign templates. We help brands create communities, what we call tribes, bound by affinity and connection. Wyng is headquartered in New York City.",
       "location": {
         "address": "360 Park Avenue South, 20th Floor",
         "postalCode": "10010",
@@ -57,12 +57,12 @@
       ]
     },
     {
-      "company": "PivotalPath",
+      "company": "PivotalPath (formerly Gallatin Advisers)",
       "position": "Software Engineer",
       "website": "http://www.pivotalpath.com/",
       "startDate": "2013-07-01",
       "endDate": "2015-03-20",
-      "summary": "PivotalPath is an innovator and leader in the hedge fund advisory space. PivotalPath's business model is a unique and industry first combination between a traditional hedge fund advisory business and modern technology. PivotalPath's platform regularly provides information and analysis on over 700 hedge fund managers to their institutional clients. Their clients have assets under advisory totaling in excess of $6 billion dollars. PivotalPath aims to deliver qualitative due diligence, accurate information, and quality analysis on more hedge funds than any competitor at a better value. PivotalPath accomplishes these goals and remains scalable by leveraging proprietary methodologies and modern technology.",
+      "summary": "PivotalPath is an innovator and leader in the hedge fund advisory space. PivotalPath's business model is a unique and industry first combination between a traditional hedge fund advisory business and modern technology. PivotalPath's platform regularly provides information and analysis on over 850 hedge fund managers to their institutional clients. Their clients have assets under advisory totaling in excess of $6.5 billion dollars. PivotalPath aims to deliver qualitative due diligence, accurate information, and quality analysis on more hedge funds than any competitor at a better value. PivotalPath accomplishes these goals and remains scalable by leveraging proprietary methodologies and modern technology.",
       "location": {
         "address": "444 Madison Avenue, 29th Floor",
         "postalCode": "10022",
