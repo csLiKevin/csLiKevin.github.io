@@ -7,7 +7,7 @@
     "phone": "",
     "degree": "Bachelors of Science Double Major",
     "website": "http://kevinli.us",
-    "summary": "Software engineer with a passion for problem solving, an eye for detail, and a strong mathematics background. Well organized, prompt, attentive and works well within a team or on solo projects. Loves to tackle complex software problems. Interested in being part of innovative and technically challenging projects. Responsive to criticism and always looking for ways to improve as an engineer.",
+    "summary": "Software engineer with a passion for problem solving, an eye for detail, and a strong mathematics background. Well organized, prompt, attentive, adaptive, and works well within a team or on solo projects. Loves to tackle complex software problems. Interested in being part of innovative and technically challenging projects. Responsive to criticism and always looking for ways to improve as an engineer.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -44,11 +44,11 @@
         "region": "New York"
       },
       "highlights": [
-        "Technologies: Python, Django, Flask, Selenium, Javascript, jQuery, ReactJS, Redux, AngularJS, NodeJS, CSS, Less, Bootstrap, Material UI, HTML, Amazon Web Services, Apache, Vagrant, Docker, MySQL, MongoDB",
-        "Led the metrics project for surfacing campaign performance to clients and provide them with consumer insights throughout the lifetime of a campaign.",
+        "Technologies: Python, Django, Flask, Selenium, Javascript, jQuery, ReactJS, Redux, AngularJS, NodeJS, CSS, Less, Bootstrap, Material Design, HTML, Amazon Web Services, Apache, Vagrant, Docker, MySQL, MongoDB",
+        "Led the project for surfacing campaign performance to clients and provide clients with consumer insights throughout the lifetime of a campaign.",
         "Create new features in the platform to increase the value being delivered to clients and improve their user experience.",
         "Improve the platform's client onboarding process and user interface experience to drive higher engagement and retention within the platform.",
-        "Visually refresh the platform by building a new UI based on Material UI's design philosophy.",
+        "Visually refresh the platform by building a new UI based on Material's design philosophy.",
         "Modernize the platform by adopting modern technologies such as ReactJS and Redux.",
         "Maintain, update, improve, and refactor existing legacy code.",
         "Write user acceptance and unit tests.",
@@ -74,7 +74,7 @@
       "highlights": [
         "Help build and design the codebase from scratch.",
         "Technologies: Python, Django, Java, Javascript, CSS, Bootstrap, HTML, MySQL, SQLite, Apache, Nginx, Amazon Web Services.",
-        "Work closely with the financial team to understand their use cases and the build tools they need for streamlining their research effort.",
+        "Work closely with the financial team to understand their use cases and the build tools for streamlining their research effort.",
         "Develop an outward facing platform for clients to access and interact with the financial team's research efforts.",
         "Develop an internal facing platform for the financial team to organize and manage their research process.",
         "Setup and maintain the cloud infrastructure responsible for hosting PivotalPath's platform services.",
@@ -197,7 +197,7 @@
       "level": "High",
       "keywords": [
         "Bootstrap",
-        "Material UI"
+        "Material Design"
       ]
     },
     {
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "name": "3rd Party Services",
+      "name": "Other",
       "level": "High",
       "keywords": [
         "Confluence",
