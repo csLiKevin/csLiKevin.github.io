@@ -7,7 +7,7 @@
     "phone": "",
     "degree": "Bachelors of Science Double Major",
     "website": "http://kevinli.us",
-    "summary": "Software engineer with a passion for problem solving, an eye for detail, and a strong mathematics background. Well organized, prompt, attentive and works well within a team or on solo projects. Interested in being part of innovative and technically challenging projects. Loves to tackle a wide range of problems. Always looking for ways to improve as an engineer, eager to learn, and responsive to criticism.",
+    "summary": "Software engineer with a passion for problem solving, an eye for detail, and a strong mathematics background. Well organized, prompt, attentive and works well within a team or on solo projects. Loves to tackle complex software problems. Interested in being part of innovative and technically challenging projects. Responsive to criticism and always looking for ways to improve as an engineer.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -35,7 +35,7 @@
       "website": "https://www.wyng.com/",
       "startDate": "2015-07-22",
       "__endDate": "",
-      "summary": "Wyng is a marketing platform for brands and agencies to build and run campaigns that drive participation and elevate consumer influence. We powered the first Super Bowl hashtag commercial in 2011. Since then, we've continued to evolve our platform to align with shifts in consumer behavior through a robust library of campaign templates. We help brands create communities, what we call tribes, bound by affinity and connection. Wyng is headquartered in New York City.",
+      "summary": "Wyng is a marketing platform for brands and agencies to build and run campaigns that drive participation and elevate consumer influence. We powered the first Super Bowl hashtag commercial in 2011. Since then, we've continued to evolve our platform to align with shifts in consumer behavior through a robust library of campaign templates.",
       "location": {
         "address": "360 Park Avenue South, 20th Floor",
         "postalCode": "10010",
@@ -44,16 +44,17 @@
         "region": "New York"
       },
       "highlights": [
-        "Technologies: Python, Django, Selenium, Javascript, AngularJS, ReactJS, NodeJS, CSS, Less, Bootstrap, Material UI, HTML, Apache, Vagrant, Docker, MySQL, MongoDB",
+        "Technologies: Python, Django, Flask, Selenium, Javascript, jQuery, ReactJS, Redux, AngularJS, NodeJS, CSS, Less, Bootstrap, Material UI, HTML, Amazon Web Services, Apache, Vagrant, Docker, MySQL, MongoDB",
+        "Led the metrics project for surfacing campaign performance to clients and provide them with consumer insights throughout the lifetime of a campaign.",
         "Create new features in the platform to increase the value being delivered to clients and improve their user experience.",
         "Improve the platform's client onboarding process and user interface experience to drive higher engagement and retention within the platform.",
-        "Modernize the platform by adopting modern technologies such as ReactJS and Redux.",
         "Visually refresh the platform by building a new UI based on Material UI's design philosophy.",
+        "Modernize the platform by adopting modern technologies such as ReactJS and Redux.",
         "Maintain, update, improve, and refactor existing legacy code.",
         "Write user acceptance and unit tests.",
         "JIRA, Confluence, Slack, and GitHub is used to manage and organize workflow processes.",
         "Travis and Jenkins is used for continuous integration testing.",
-        "Work together with a team of software engineers."
+        "Work together in a team of software engineers."
       ]
     },
     {
@@ -62,7 +63,7 @@
       "website": "http://www.pivotalpath.com/",
       "startDate": "2013-07-01",
       "endDate": "2015-03-20",
-      "summary": "PivotalPath is an innovator and leader in the hedge fund advisory space. PivotalPath's business model is a unique and industry first combination between a traditional hedge fund advisory business and modern technology. PivotalPath's platform regularly provides information and analysis on over 850 hedge fund managers to their institutional clients. Their clients have assets under advisory totaling in excess of $6.5 billion dollars. PivotalPath aims to deliver qualitative due diligence, accurate information, and quality analysis on more hedge funds than any competitor at a better value. PivotalPath accomplishes these goals and remains scalable by leveraging proprietary methodologies and modern technology.",
+      "summary": "PivotalPath is a new model investment consultancy, bridging the gap that currently separates the interests of traditional investment consultants from those of CIOs.  Its investor portal, PivotalBase offers information and analysis on a distilled group of 850+ hedge funds including 200+ in-depth qualitative and quantitative assessments, along with a set of tools to navigate them. Advising on over $6.5 billion in hedge fund assets comprised of single and multi-family offices, pensions, endowments and foundations, PivotalPath provides services including investment due diligence, sourcing, portfolio construction, monitoring, and bespoke projects.",
       "location": {
         "address": "444 Madison Avenue, 29th Floor",
         "postalCode": "10022",
@@ -73,12 +74,12 @@
       "highlights": [
         "Help build and design the codebase from scratch.",
         "Technologies: Python, Django, Java, Javascript, CSS, Bootstrap, HTML, MySQL, SQLite, Apache, Nginx, Amazon Web Services.",
-        "Work closely with the financial team to understand what tools they need for streamlining their research effort.",
+        "Work closely with the financial team to understand their use cases and the build tools they need for streamlining their research effort.",
         "Develop an outward facing platform for clients to access and interact with the financial team's research efforts.",
         "Develop an internal facing platform for the financial team to organize and manage their research process.",
         "Setup and maintain the cloud infrastructure responsible for hosting PivotalPath's platform services.",
         "JIRA, Confluence, HipChat, and GitHub is used to manage and organize workflow processes.",
-        "Work together with a team of software engineers."
+        "Work together in a team of software engineers."
       ]
     },
     {
@@ -96,7 +97,7 @@
         "region": "New York"
       },
       "highlights": [
-        "Maintain and organiz medical records.",
+        "Maintain and organize medical records.",
         "Identify medical records that were missing physician signatures or reviews.",
         "Assist physicians in locating their patient's medical records.",
         "Handle sensitive information daily with care and professionalism."
@@ -148,19 +149,19 @@
       "keywords": [
         "Django",
         "Django REST Framework",
-        "Selenium",
-        "Flask"
+        "Flask",
+        "Selenium"
       ]
     },
     {
       "name": "Javascript",
-      "level": "Medium",
+      "level": "High",
       "keywords": [
-        "jQuery",
         "AngularJS",
+        "jQuery",
+        "NodeJS",
         "ReactJS",
-        "React Redux",
-        "NodeJS"
+        "Redux"
       ]
     },
     {
@@ -171,86 +172,87 @@
       ]
     },
     {
-      "name": "C",
+      "name": "Other Languages",
       "level": "Low",
       "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "C#",
-      "level": "Low",
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "C++",
-      "level": "Low",
-      "keywords": [
-        ""
+        "C",
+        "C#",
+        "C++",
+        "Ruby"
       ]
     },
     {
       "name": "Web Development",
       "level": "High",
       "keywords": [
-        "HTML",
         "CSS",
-        "XML",
-        "PHP"
+        "HTML",
+        "Less",
+        "PHP",
+        "XML"
+      ]
+    },
+    {
+      "name": "Web Design",
+      "level": "High",
+      "keywords": [
+        "Bootstrap",
+        "Material UI"
       ]
     },
     {
       "name": "Database",
       "level": "Medium",
       "keywords": [
+        "MongoDB",
         "MySQL",
-        "SQLite",
         "PostgreSQL",
-        "MongoDB"
+        "SQLite"
       ]
     },
     {
-      "name": "DevOps",
+      "name": "Operations",
       "level": "Low",
       "keywords": [
         "Amazon Web Services",
-        "Nginx",
         "Apache",
-        "Vagrant",
-        "Docker"
+        "Docker",
+        "Nginx",
+        "Vagrant"
       ]
     },
     {
       "name": "Tools",
       "level": "High",
       "keywords": [
+        "Eclipse",
         "Git",
-        "GitHub",
+        "HipChat",
+        "Linux",
+        "Linux Mint",
+        "Mac OS X",
+        "MATLAB",
+        "Microsoft Office",
+        "NetBeans",
+        "PyCharm",
+        "Slack",
         "SVN",
         "Tortoise SVN",
-        "PyCharm",
-        "NetBeans",
-        "Eclipse",
+        "Ubuntu",
         "Visual Studio",
-        "MATLAB"
+        "Windows"
       ]
     },
     {
-      "name": "Workflow",
+      "name": "3rd Party Services",
       "level": "High",
       "keywords": [
-        "JIRA",
         "Confluence",
-        "Microsoft Office",
-        "Slack",
-        "HipChat",
-        "Windows",
-        "Linux",
-        "Ubuntu",
-        "Linux Mint",
-        "Mac OS X"
+        "Datadog",
+        "GitHub",
+        "JIRA",
+        "Keen.io",
+        "Looker"
       ]
     }
   ],
@@ -265,27 +267,27 @@
       "name": "Books",
       "keywords": [
         "Fiction",
-        "Science Fiction",
         "Isaac Asimov",
         "Orson Scott Card",
+        "Science Fiction",
         "Ted Chiang"
       ]
     },
     {
       "name": "Video Games",
       "keywords": [
-        "PC",
-        "Role Playing Games",
         "Adventure Games",
+        "Fire Emblem",
+        "Kirby",
         "League of Legends",
-        "Overwatch",
         "Monster Hunter",
         "Nintendo 3DS",
+        "Overwatch",
+        "PC",
         "Pokémon",
+        "Role Playing Games",
         "Super Mario",
-        "Fire Emblem",
-        "Zelda",
-        "Kirby"
+        "Zelda"
       ]
     }
   ]
