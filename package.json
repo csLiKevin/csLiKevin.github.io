@@ -21,9 +21,9 @@
   "homepage": "https://github.com/csLiKevin/csLiKevin.github.io#readme",
   "dependencies": {
     "hackmyresume": "^1.8.0",
-    "jsonresume-theme-elegant": "^1.9.1",
+    "jsonresume-theme-elegant": "^1.10.1",
     "jsonresume-theme-eloquent": "^3.0.1",
-    "jsonresume-theme-kendall": "^0.1.15",
+    "jsonresume-theme-kendall": "^0.1.17",
     "jsonresume-theme-material": "^1.1.2",
     "jsonresume-theme-spartacus": "^1.0.0"
   }
