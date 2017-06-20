@@ -30,11 +30,28 @@
   },
   "work": [
     {
+      "company": "The Orchard",
+      "position": "Software Engineer",
+      "website": "http://www.theorchard.com/",
+      "startDate": "2017-06-19",
+      "__endDate": "",
+      "summary": "The Orchard is a pioneering music, video and film distribution company and top-ranked Multi Channel Network operating in more than 25 global markets. With a holistic approach to sales and marketing combined with industry-leading technology and operations, The Orchard amplifies reach and revenue across hundreds of digital, physical and mobile outlets around the world. The Orchard streamlines content owners'​ business complexity with an intuitive client dashboard, comprehensive rights management and tailored client support. Founded in 1997, The Orchard empowers businesses and creators in the entertainment industry.",
+      "location": {
+        "address": "23rd East 4th Street, 3rd Floor",
+        "postalCode": "10003",
+        "city": "New York City",
+        "countryCode": "US",
+        "region": "New York"
+      },
+      "highlights": [
+      ]
+    },
+    {
       "company": "Wyng (formerly Offerpop)",
       "position": "Software Engineer",
       "website": "https://www.wyng.com/",
       "startDate": "2015-07-22",
-      "__endDate": "",
+      "endDate": "2017-06-16",
       "summary": "Wyng is a marketing platform for brands and agencies to build and run campaigns that drive participation and elevate consumer influence. We powered the first Super Bowl hashtag commercial in 2011. Since then, we've continued to evolve our platform to align with shifts in consumer behavior through a robust library of campaign templates.",
       "location": {
         "address": "360 Park Avenue South, 20th Floor",
