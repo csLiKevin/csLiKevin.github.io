@@ -162,7 +162,7 @@
   "skills": [
     {
       "name": "Python",
-      "level": "Expert",
+      "level": "Master",
       "keywords": [
         "Django",
         "Django REST Framework",
@@ -172,7 +172,7 @@
     },
     {
       "name": "Javascript",
-      "level": "High",
+      "level": "Advanced",
       "keywords": [
         "AngularJS",
         "jQuery",
@@ -183,14 +183,14 @@
     },
     {
       "name": "Java",
-      "level": "High",
+      "level": "Advanced",
       "keywords": [
         "libGDX"
       ]
     },
     {
       "name": "Other Languages",
-      "level": "Low",
+      "level": "Beginner",
       "keywords": [
         "C",
         "C#",
@@ -200,7 +200,7 @@
     },
     {
       "name": "Web Development",
-      "level": "High",
+      "level": "Advanced",
       "keywords": [
         "CSS",
         "HTML",
@@ -211,15 +211,15 @@
     },
     {
       "name": "Web Design",
-      "level": "High",
+      "level": "Advanced",
       "keywords": [
         "Bootstrap",
         "Material Design"
       ]
     },
     {
-      "name": "Database",
-      "level": "Medium",
+      "name": "Databases",
+      "level": "Intermediate",
       "keywords": [
         "MongoDB",
         "MySQL",
@@ -229,7 +229,7 @@
     },
     {
       "name": "Operations",
-      "level": "Low",
+      "level": "Beginner",
       "keywords": [
         "Amazon Web Services",
         "Apache",
@@ -240,7 +240,7 @@
     },
     {
       "name": "Tools",
-      "level": "High",
+      "level": "Advanced",
       "keywords": [
         "Eclipse",
         "Git",
@@ -262,7 +262,7 @@
     },
     {
       "name": "Other",
-      "level": "High",
+      "level": "Advanced",
       "keywords": [
         "Confluence",
         "Datadog",
