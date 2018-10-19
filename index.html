@@ -2,30 +2,99 @@
 <html>
     
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"
         />
         <title>Kevin Li</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         />
         <style>
             /********************************************
             * 	reset from
             * 	http://meyerweb.com/eric/tools/css/reset/
             *******************************************/
-            html, body, div, span, applet, object, iframe,
-            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-            a, abbr, acronym, address, big, cite, code,
-            del, dfn, em, img, ins, kbd, q, s, samp,
-            small, strike, strong, sub, sup, tt, var,
-            b, u, i, center,
-            dl, dt, dd, ol, ul, li,
-            fieldset, form, label, legend,
-            table, caption, tbody, tfoot, thead, tr, th, td,
-            article, aside, canvas, details, embed,
-            figure, figcaption, footer, header, hgroup,
-            menu, nav, output, ruby, section, summary,
-            time, mark, audio, video {
+            
+            html,
+            body,
+            div,
+            span,
+            applet,
+            object,
+            iframe,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            blockquote,
+            pre,
+            a,
+            abbr,
+            acronym,
+            address,
+            big,
+            cite,
+            code,
+            del,
+            dfn,
+            em,
+            img,
+            ins,
+            kbd,
+            q,
+            s,
+            samp,
+            small,
+            strike,
+            strong,
+            sub,
+            sup,
+            tt,
+            var,
+            b,
+            u,
+            i,
+            center,
+            dl,
+            dt,
+            dd,
+            ol,
+            ul,
+            li,
+            fieldset,
+            form,
+            label,
+            legend,
+            table,
+            caption,
+            tbody,
+            tfoot,
+            thead,
+            tr,
+            th,
+            td,
+            article,
+            aside,
+            canvas,
+            details,
+            embed,
+            figure,
+            figcaption,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            output,
+            ruby,
+            section,
+            summary,
+            time,
+            mark,
+            audio,
+            video {
                 margin: 0;
                 padding: 0;
                 border: 0;
@@ -33,8 +102,17 @@
                 vertical-align: baseline;
             }
             
-            article, aside, details, figcaption, figure,
-            footer, header, hgroup, menu, nav, section {
+            article,
+            aside,
+            details,
+            figcaption,
+            figure,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            section {
                 display: block;
             }
             
@@ -42,16 +120,20 @@
                 line-height: 1;
             }
             
-            ol, ul {
+            ol,
+            ul {
                 list-style: none;
             }
             
-            blockquote, q {
+            blockquote,
+            q {
                 quotes: none;
             }
             
-            blockquote:before, blockquote:after,
-            q:before, q:after {
+            blockquote:before,
+            blockquote:after,
+            q:before,
+            q:after {
                 content: none;
             }
             
@@ -60,10 +142,13 @@
                 border-spacing: 0;
             }
             
+            
             /****************
             *	COMMONS
             ****************/
-            body, html {
+            
+            body,
+            html {
                 font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
                 font-size: 13px;
                 color: #40484f;
@@ -71,7 +156,7 @@
                 letter-spacing: 0;
                 line-height: 1.46153846;
                 text-align: left;
-                webkit-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
             }
             
             p {
@@ -80,8 +165,7 @@
             }
             
             a {
-                /*color: #0095ff;*/
-                color: #0095F2;
+                color: #0095ff;
                 text-decoration: none;
             }
             
@@ -98,6 +182,10 @@
                 list-style-type: square;
                 list-style-position: outside;
                 margin-left: 1.3em;
+            }
+            
+            .highlights>li>p {
+                margin-bottom: 0.5em;
             }
             
             h1 {
@@ -124,13 +212,17 @@
                 font-weight: 700;
             }
             
+            
             /* main container */
+            
             #resume {
                 padding: 1rem;
                 margin-top: 2rem;
             }
             
+            
             /* every section wrapper */
+            
             .section {
                 margin-bottom: 1rem;
             }
@@ -149,8 +241,8 @@
                 padding: 0;
             }
             
-            #header > #profiles,
-            #header > #contact,
+            #header>#profiles,
+            #header>#contact,
             #skills,
             #languages,
             #interests {
@@ -165,11 +257,11 @@
                 justify-content: flex-start;
             }
             
-            #header > div {
+            #header>div {
                 line-height: 1.5;
             }
             
-            #header > div > div {
+            #header>div>div {
                 margin-right: 1.2em;
             }
             
@@ -212,7 +304,7 @@
                 font-size: .9rem;
             }
             
-            .section > header {
+            .section>header {
                 position: relative;
             }
             
@@ -220,7 +312,7 @@
                 margin-right: 0.25em;
             }
             
-            .section > header::after {
+            .section>header::after {
                 position: absolute;
                 left: 0;
                 top: .7em;
@@ -232,21 +324,21 @@
                 display: block;
             }
             
-            .section.main-summary > section {
+            .section.main-summary>section {
                 margin: 0;
             }
             
-            .section > section > header {
+            .section>section>header {
                 font-size: 1.38rem;
                 position: relative;
                 margin-top: .7em;
             }
             
-            .section > section > header:first-of-type {
+            .section>section>header:first-of-type {
                 margin: 0;
             }
             
-            .section > section > header .space-left {
+            .section>section>header .space-left {
                 position: absolute;
                 left: -1.56rem;
                 top: 5px;
@@ -334,7 +426,9 @@
                 font-size: 1.1em;
             }
             
+            
             /* Social Media Brand Colors */
+            
             .google-plus {
                 color: #dd4b39;
             }
@@ -402,7 +496,11 @@
                 content: '\f16c';
                 color: #f68a1f;
                 overflow: hidden;
-                height: 40%;
+                height: 100%;
+            }
+            
+            .telegram {
+                color: #2291c3;
             }
             
             #languages .item,
@@ -421,7 +519,9 @@
                 width: 15em;
             }
             
+            
             /* Skill chart */
+            
             .level {
                 margin-bottom: .5em;
             }
@@ -470,6 +570,10 @@
                 border-left: 5px solid #ff6d1f;
             }
             
+            .toggle-item {
+              visibility: hidden;
+            }
+            
             /******************
             *	HELPER CLASSES
             ******************/
@@ -489,9 +593,11 @@
                 margin-bottom: .5rem;
             }
             
+            
             /****************
             *		TABLET
             ****************/
+            
             @media screen and (min-width: 602px) {
                 #resume {
                     width: 80%;
@@ -499,61 +605,78 @@
                 }
             }
             
+            
             /****************
             *		LAPTOP
             ****************/
+            
             @media screen and (min-width: 1025px) {
                 li {
                     margin-left: 1.5em;
                 }
-            
                 #resume {
                     width: 820px;
-                    margin: 2rem auto;
-                    opacity: 0;
-                    -webkit-transition: opacity .5s ease-in-out;
-                    transition: opacity .5s ease-in-out;
+                    margin: 2rem auto;      
                 }
-            
-                .section > section > header .space-left {
+                .section>section>header .space-left {
                     opacity: 1;
                     cursor: pointer;
                 }
-            
-                .section > section {
+                .section>section {
                     margin-left: 1.67rem;
                 }
-            
+                .toggle-item {
+                    transform: translate(-9999px);
+                }
+                .toggle-item+label {
+                    display: block;
+                    margin-top: -16px;
+                }
+                .toggle-item:checked+label:after {
+                    content: '\f0d7';
+                }
+                .toggle-item+label:after {
+                    float: left;
+                    cursor: pointer;
+                    margin-left: -20px;
+                    color: #aaa;
+                    font-size: 16px;
+                    content: '\f0da';
+                    font-family: Fontawesome;
+                }
+                .toggle-item~.item {
+                    height: 0;
+                    opacity: 0;
+                }
+                .toggle-item:checked~.item {
+                    height: auto;
+                    opacity: 1;
+                    transition: all .5s linear;
+                }
                 .company::before,
                 .institution::before,
                 .organization::before,
                 .awarder::before {
                     content: "| ";
                 }
-            
                 .header-left {
                     float: left;
                     width: 70%;
                     word-break: normal;
                 }
-            
                 .section header .date {
                     float: right;
                     padding: .2em;
                 }
-            
                 .display {
                     display: none;
                 }
-            
                 .display:not(.none) {
                     display: block;
                 }
-            
             }
             
             @media print {
-            
                 #resume {
                     margin: 0;
                     padding: 0;
@@ -562,54 +685,44 @@
                     line-height: 1.3;
                     /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
                 }
-            
                 @page {
                     margin: 1cm 1.4cm;
                 }
-            
                 .item-count {
                     display: none;
                 }
-            
                 .company::before,
                 .institution::before,
                 .organization::before,
                 .awarder::before {
                     content: "at ";
                 }
-            
                 .main-summary {
                     padding: 2rem 0;
                 }
-            
                 .section {
                     margin: .8rem 0;
                     padding: 0;
                 }
-            
                 .section header {
                     padding-bottom: .15rem;
                 }
-            
                 .section .location {
                     padding-bottom: .15rem;
                 }
                 .stack-overflow::after {
                     content: "";
                 }
-            
                 .fa.social {
                     color: #828386;
                 }
-            
                 ul {
                     margin-top: .4em;
                 }
-            
-                ul, li {
+                ul,
+                li {
                     padding: 0;
                 }
-            
                 ul.keywords li,
                 ul.courses li {
                     margin: 0;
@@ -617,70 +730,47 @@
                     font-size: .8rem;
                     text-transform: lowercase;
                 }
-            
                 ul.keywords li::after,
                 ul.courses li::after {
                     padding: 0 0 0 .1rem;
                     content: " |";
                 }
-            
                 ul.keywords::before,
                 ul.courses::before {
                     font-size: .8rem;
                     font-weight: 600;
                 }
-            
                 ul.keywords::before {
                     content: "Skills acquired: ";
                 }
-            
                 #skills .keywords::before {
                     content: '';
                 }
-            
                 .section p {
                     margin: 0;
                     padding: 0;
                 }
-            
                 ul.courses::before {
                     content: "Major courses: ";
                 }
-            
                 ul.keywords li:last-of-type::after,
                 ul.courses li:last-of-type::after {
                     content: "";
                 }
-            
                 .level em {
                     font-style: normal;
                     padding: .1em 0;
                 }
-            
                 .level .bar {
                     display: none;
                 }
-            
                 #profiles .item {
                     padding: 0;
                 }
-            
                 .item.display {
                     display: block;
                     opacity: 1 !important;
                 }
-            }
-            
-            /** added by hearsid to allow wkhtmltopdf to create correct PDF, zoom 5 **/
-            
-            #skills, #languages {
-                display: block;
-            }
-            
-            #skills .item, #languages .display {
-                display:inline-block;
-                width: 30%;
-                vertical-align: top;
             }
         </style>
     </head>
@@ -695,40 +785,33 @@
                     	<h2 class="label">Software Engineer</h2>
 
                 </div>	<span class="location">
-								<span class="city">
-									Brooklyn,
-								</span>
-	<span class="region">
-									New York
-								</span>
-	<span class="countryCode">
-									US
-								</span>
-</span>
-                <div id="contact">
-                    <div class="website"> <span class="fa fa-external-link"></span>
-	<a target="_blank" href="http://kevinli.us">http://kevinli.us</a>
-
-                    </div>
-                </div>
-                <div id="profiles">
-                    <div class="item">
-                        <div class="username">	<span class="fa fa-github github social"></span>
-	<span class="url">
-										<a href="https://github.com/csLiKevin">csLiKevin</a>
-									</span>
+    			<span class="city">Brooklyn,</span> 	<span class="region">New York</span> 
+                <span
+                class="countryCode">US</span>
+                    </span>
+                    <div id="contact">
+                        <div class="website">	<span class="fa fa-external-link"></span>
+	<a target="_blank" target="_blank"
+                            href="http://kevinli.us">http://kevinli.us</a>
 
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="username">	<span class="fa fa-linkedin linkedin social"></span>
+                    <div id="profiles">
+                        <div class="item">
+                            <div class="username">	<span class="fa fa-github github social"></span>
 	<span class="url">
-										<a href="https://www.linkedin.com/in/cslikevin">csLiKevin</a>
-									</span>
-
+    						<a target="_blank" href="https://github.com/csLiKevin">csLiKevin</a>
+    					</span> 
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="username">	<span class="fa fa-linkedin linkedin social"></span>
+	<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/cslikevin">csLiKevin</a>
+    					</span> 
+                            </div>
                         </div>
                     </div>
-                </div>
             </header>
             <section class="section main-summary">
                 <section>
@@ -750,8 +833,8 @@
                 <section id="skills">
                     <div class="item">
                         	<h3 class="name">
-								Python
-							</h3>
+    				Python
+    			</h3>
 
                         <div class="level master">	<em>Master</em>
 
@@ -766,8 +849,8 @@
                     </div>
                     <div class="item">
                         	<h3 class="name">
-								Javascript
-							</h3>
+    				Javascript
+    			</h3>
 
                         <div class="level advanced">	<em>Advanced</em>
 
@@ -783,8 +866,8 @@
                     </div>
                     <div class="item">
                         	<h3 class="name">
-								Java
-							</h3>
+    				Java
+    			</h3>
 
                         <div class="level advanced">	<em>Advanced</em>
 
@@ -796,8 +879,8 @@
                     </div>
                     <div class="item">
                         	<h3 class="name">
-								Other Languages
-							</h3>
+    				Other Languages
+    			</h3>
 
                         <div class="level beginner">	<em>Beginner</em>
 
@@ -812,8 +895,8 @@
                     </div>
                     <div class="item">
                         	<h3 class="name">
-								Web Development
-							</h3>
+    				Web Development
+    			</h3>
 
                         <div class="level advanced">	<em>Advanced</em>
 
@@ -829,8 +912,8 @@
                     </div>
                     <div class="item">
                         	<h3 class="name">
-								Web Design
-							</h3>
+    				Web Design
+    			</h3>
 
                         <div class="level advanced">	<em>Advanced</em>
 
@@ -843,8 +926,8 @@
                     </div>
                     <div class="item">
                         	<h3 class="name">
-								Databases
-							</h3>
+    				Databases
+    			</h3>
 
                         <div class="level intermediate">	<em>Intermediate</em>
 
@@ -859,8 +942,8 @@
                     </div>
                     <div class="item">
                         	<h3 class="name">
-								Operations
-							</h3>
+    				Operations
+    			</h3>
 
                         <div class="level beginner">	<em>Beginner</em>
 
@@ -876,8 +959,8 @@
                     </div>
                     <div class="item">
                         	<h3 class="name">
-								Tools
-							</h3>
+    				Tools
+    			</h3>
 
                         <div class="level advanced">	<em>Advanced</em>
 
@@ -904,8 +987,8 @@
                     </div>
                     <div class="item">
                         	<h3 class="name">
-								Other
-							</h3>
+    				Other
+    			</h3>
 
                         <div class="level advanced">	<em>Advanced</em>
 
@@ -924,81 +1007,63 @@
             </section>
             <section class="section">
                 <header>
-                    	<h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
+                     <h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
 
                 </header>
                 <section id="work">
-                    <header>	<span class="space-left">
-											<span class="fa fa-caret-down"></span>
-</span>
-                        <div class="position">Software Engineer</div>
-                        <div class="company">The Orchard</div>
-                        <div class="date">	<span class="startDate">
-											June 2017
-										</span>
-	<span class="endDate">
-											- Current
-										</span>
-
-                        </div>
-                    </header> <span class="location">
-                                    <span class="fa fa-map-marker"></span>
-
-                    <span
-                    class="city">New York City,</span> <span class="countryCode">
-                                        (US)
-                                    </span>
- <span class="region">
-                                      New York
-                                    </span>
-</span> <span class="website">
-                                    <a href="http://www.theorchard.com/">http://www.theorchard.com/</a>
-                                </span>
-
-                        <div class="item display" style="opacity:1">
-                            <div class="summary">
-                                <p>
-                                    <p>The Orchard is a pioneering music, video and film distribution company
-                                        and top-ranked Multi Channel Network operating in more than 25 global markets.
-                                        With a holistic approach to sales and marketing combined with industry-leading
-                                        technology and operations, The Orchard amplifies reach and revenue across
-                                        hundreds of digital, physical and mobile outlets around the world. The
-                                        Orchard streamlines content owners&#39;​ business complexity with an intuitive
-                                        client dashboard, comprehensive rights management and tailored client support.
-                                        Founded in 1997, The Orchard empowers businesses and creators in the entertainment
-                                        industry.</p>
-                                </p>
-                            </div>
-                        </div>
-                        <header>	<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-</span>
+                    <section class="work-item">
+                        <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked"
+                        />
+                        <label for="work-item-0"></label>
+                        <header>
                             <div class="position">Software Engineer</div>
-                            <div class="company">Wyng (formerly Offerpop)</div>
-                            <div class="date">	<span class="startDate">
-											July 2015
-										</span>
-	<span class="endDate">
-											- June 2017
-										</span>
-
+                            <div class="company">The Orchard</div>
+                            <div class="date"> <span class="startDate">@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~June~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@ 2017</span> 
+                                <span
+                                class="endDate">- Current</span>
                             </div>
-                        </header> <span class="location">
-                                    <span class="fa fa-map-marker"></span>
+                        </header>	<span class="location">
+    				<span class="fa fa-map-marker"></span> 	<span class="city">New York City,</span>
 
                         <span
-                        class="city">New York City,</span> <span class="countryCode">
-                                        (US)
-                                    </span>
- <span class="region">
-                                      New York
-                                    </span>
-</span> <span class="website">
-                                    <a href="https://www.wyng.com/">https://www.wyng.com/</a>
-                                </span>
+                        class="countryCode">(US)</span>	<span class="region">New York</span> </span>	<span class="website">
+        		<a target="_blank" href="http://www.theorchard.com/">http://www.theorchard.com/</a>
+        	</span> 
+                            <div class="item" id="work-item">
+                                <div class="summary">
+                                    <p>
+                                        <p>The Orchard is a pioneering music, video and film distribution company
+                                            and top-ranked Multi Channel Network operating in more than 25 global markets.
+                                            With a holistic approach to sales and marketing combined with industry-leading
+                                            technology and operations, The Orchard amplifies reach and revenue across
+                                            hundreds of digital, physical and mobile outlets around the world. The
+                                            Orchard streamlines content owners&#39;​ business complexity with an intuitive
+                                            client dashboard, comprehensive rights management and tailored client support.
+                                            Founded in 1997, The Orchard empowers businesses and creators in the entertainment
+                                            industry.</p>
+                                    </p>
+                                </div>
+                            </div>
+                    </section>
+                    <section class="work-item">
+                        <input id="work-item-1" type="checkbox" class="toggle-item" />
+                        <label for="work-item-1"></label>
+                        <header>
+                            <div class="position">Software Engineer</div>
+                            <div class="company">Wyng (formerly Offerpop)</div>
+                            <div class="date"> <span class="startDate">@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~July~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@ 2015</span> 
+                                <span
+                                class="endDate">- @@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~June~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@
+                                    2017</span>
+                            </div>
+                        </header>	<span class="location">
+    				<span class="fa fa-map-marker"></span> 	<span class="city">New York City,</span>
 
-                            <div class="item display none"
-                            style="opacity:0">
+                        <span
+                        class="countryCode">(US)</span>	<span class="region">New York</span> </span>	<span class="website">
+        		<a target="_blank" href="https://www.wyng.com/">https://www.wyng.com/</a>
+        	</span> 
+                            <div class="item" id="work-item">
                                 <div class="summary">
                                     <p>
                                         <p>Wyng is a marketing platform for brands and agencies to build and run
@@ -1009,227 +1074,246 @@
                                     </p>
                                 </div>
                                 <ul class="highlights">
-                                    <li>Technologies: Python, Django, Flask, Selenium, Javascript, jQuery, ReactJS,
-                                        Redux, AngularJS, NodeJS, CSS, Less, Bootstrap, Material Design, HTML,
-                                        Amazon Web Services, Apache, Vagrant, Docker, MySQL, MongoDB</li>
-                                    <li>Led the project for surfacing campaign performance to clients and provide
-                                        clients with consumer insights throughout the lifetime of a campaign.</li>
-                                    <li>Create new features in the platform to increase the value being delivered
-                                        to clients and improve their user experience.</li>
-                                    <li>Improve the platform&#x27;s client onboarding process and user interface
-                                        experience to drive higher engagement and retention within the platform.</li>
-                                    <li>Visually refresh the platform by building a new UI based on Material&#x27;s
-                                        design philosophy.</li>
-                                    <li>Modernize the platform by adopting modern technologies such as ReactJS
-                                        and Redux.</li>
-                                    <li>Maintain, update, improve, and refactor existing legacy code.</li>
-                                    <li>Write user acceptance and unit tests.</li>
-                                    <li>JIRA, Confluence, Slack, and GitHub is used to manage and organize workflow
-                                        processes.</li>
-                                    <li>Travis and Jenkins is used for continuous integration testing.</li>
-                                    <li>Work together in a team of software engineers.</li>
+                                    <li>
+                                        <p>Technologies: Python, Django, Flask, Selenium, Javascript, jQuery, ReactJS,
+                                            Redux, AngularJS, NodeJS, CSS, Less, Bootstrap, Material Design, HTML,
+                                            Amazon Web Services, Apache, Vagrant, Docker, MySQL, MongoDB</p>
+                                    </li>
+                                    <li>
+                                        <p>Led the project for surfacing campaign performance to clients and provide
+                                            clients with consumer insights throughout the lifetime of a campaign.</p>
+                                    </li>
+                                    <li>
+                                        <p>Create new features in the platform to increase the value being delivered
+                                            to clients and improve their user experience.</p>
+                                    </li>
+                                    <li>
+                                        <p>Improve the platform&#39;s client onboarding process and user interface
+                                            experience to drive higher engagement and retention within the platform.</p>
+                                    </li>
+                                    <li>
+                                        <p>Visually refresh the platform by building a new UI based on Material&#39;s
+                                            design philosophy.</p>
+                                    </li>
+                                    <li>
+                                        <p>Modernize the platform by adopting modern technologies such as ReactJS
+                                            and Redux.</p>
+                                    </li>
+                                    <li>
+                                        <p>Maintain, update, improve, and refactor existing legacy code.</p>
+                                    </li>
+                                    <li>
+                                        <p>Write user acceptance and unit tests.</p>
+                                    </li>
+                                    <li>
+                                        <p>JIRA, Confluence, Slack, and GitHub is used to manage and organize workflow
+                                            processes.</p>
+                                    </li>
+                                    <li>
+                                        <p>Travis and Jenkins is used for continuous integration testing.</p>
+                                    </li>
+                                    <li>
+                                        <p>Work together in a team of software engineers.</p>
+                                    </li>
                                 </ul>
                             </div>
-                            <header>	<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-</span>
-                                <div class="position">Software Engineer</div>
-                                <div class="company">PivotalPath (formerly Gallatin Advisers)</div>
-                                <div class="date">	<span class="startDate">
-											July 2013
-										</span>
-	<span class="endDate">
-											- March 2015
-										</span>
-
-                                </div>
-                            </header> <span class="location">
-                                    <span class="fa fa-map-marker"></span>
-
-                            <span
-                            class="city">New York City,</span> <span class="countryCode">
-                                        (US)
-                                    </span>
- <span class="region">
-                                      New York
-                                    </span>
-</span> <span class="website">
-                                    <a href="http://www.pivotalpath.com/">http://www.pivotalpath.com/</a>
-                                </span>
-
-                                <div class="item display none"
-                                style="opacity:0">
-                                    <div class="summary">
-                                        <p>
-                                            <p>PivotalPath is a new model investment consultancy, bridging the gap that
-                                                currently separates the interests of traditional investment consultants
-                                                from those of CIOs. Its investor portal, PivotalBase offers information
-                                                and analysis on a distilled group of 850+ hedge funds including 200+ in-depth
-                                                qualitative and quantitative assessments, along with a set of tools to
-                                                navigate them. Advising on over $6.5 billion in hedge fund assets comprised
-                                                of single and multi-family offices, pensions, endowments and foundations,
-                                                PivotalPath provides services including investment due diligence, sourcing,
-                                                portfolio construction, monitoring, and bespoke projects.</p>
-                                        </p>
-                                    </div>
-                                    <ul class="highlights">
-                                        <li>Help build and design the codebase from scratch.</li>
-                                        <li>Technologies: Python, Django, Java, Javascript, CSS, Bootstrap, HTML,
-                                            MySQL, SQLite, Apache, Nginx, Amazon Web Services.</li>
-                                        <li>Work closely with the financial team to understand their use cases and
-                                            the build tools for streamlining their research effort.</li>
-                                        <li>Develop an outward facing platform for clients to access and interact
-                                            with the financial team&#x27;s research efforts.</li>
-                                        <li>Develop an internal facing platform for the financial team to organize
-                                            and manage their research process.</li>
-                                        <li>Setup and maintain the cloud infrastructure responsible for hosting PivotalPath&#x27;s
-                                            platform services.</li>
-                                        <li>JIRA, Confluence, HipChat, and GitHub is used to manage and organize workflow
-                                            processes.</li>
-                                        <li>Work together in a team of software engineers.</li>
-                                    </ul>
-                                </div>
-                                <header>	<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-</span>
-                                    <div class="position">Medical Records Clerk</div>
-                                    <div class="company">Maimonides Medical Center</div>
-                                    <div class="date">	<span class="startDate">
-											July 2011
-										</span>
-	<span class="endDate">
-											- September 2011
-										</span>
-
-                                    </div>
-                                </header> <span class="location">
-                                    <span class="fa fa-map-marker"></span>
-
+                    </section>
+                    <section class="work-item">
+                        <input id="work-item-2" type="checkbox" class="toggle-item" />
+                        <label for="work-item-2"></label>
+                        <header>
+                            <div class="position">Software Engineer</div>
+                            <div class="company">PivotalPath (formerly Gallatin Advisers)</div>
+                            <div class="date"> <span class="startDate">@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~July~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@ 2013</span> 
                                 <span
-                                class="city">Brooklyn,</span> <span class="countryCode">
-                                        (US)
-                                    </span>
- <span class="region">
-                                      New York
-                                    </span>
-</span> <span class="website">
-                                    <a href="http://www.maimonidesmed.org/">http://www.maimonidesmed.org/</a>
-                                </span>
+                                class="endDate">- @@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~March~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@
+                                    2015</span>
+                            </div>
+                        </header>	<span class="location">
+    				<span class="fa fa-map-marker"></span> 	<span class="city">New York City,</span>
 
-                                    <div class="item display none"
-                                    style="opacity:0">
-                                        <div class="summary">
-                                            <p>
-                                                <p>The Hospital Information Services Department of Maimonides Medical Center
-                                                    was responsible for maintaining the medical records of the patients at
-                                                    the Maimonides Medical Center. This included tasks such as identifying
-                                                    incomplete records, ensuring the results of tests and procedures were associated
-                                                    with the correct record, and acquiring the necessary approval or signatures
-                                                    from the appropriate physicians.</p>
-                                            </p>
-                                        </div>
-                                        <ul class="highlights">
-                                            <li>Maintain and organize medical records.</li>
-                                            <li>Identify medical records that were missing physician signatures or reviews.</li>
-                                            <li>Assist physicians in locating their patient&#x27;s medical records.</li>
-                                            <li>Handle sensitive information daily with care and professionalism.</li>
-                                        </ul>
-                                    </div>
+                        <span
+                        class="countryCode">(US)</span>	<span class="region">New York</span> </span>	<span class="website">
+        		<a target="_blank" href="http://www.pivotalpath.com/">http://www.pivotalpath.com/</a>
+        	</span> 
+                            <div class="item" id="work-item">
+                                <div class="summary">
+                                    <p>
+                                        <p>PivotalPath is a new model investment consultancy, bridging the gap that
+                                            currently separates the interests of traditional investment consultants
+                                            from those of CIOs. Its investor portal, PivotalBase offers information
+                                            and analysis on a distilled group of 850+ hedge funds including 200+ in-depth
+                                            qualitative and quantitative assessments, along with a set of tools to
+                                            navigate them. Advising on over $6.5 billion in hedge fund assets comprised
+                                            of single and multi-family offices, pensions, endowments and foundations,
+                                            PivotalPath provides services including investment due diligence, sourcing,
+                                            portfolio construction, monitoring, and bespoke projects.</p>
+                                    </p>
+                                </div>
+                                <ul class="highlights">
+                                    <li>
+                                        <p>Help build and design the codebase from scratch.</p>
+                                    </li>
+                                    <li>
+                                        <p>Technologies: Python, Django, Java, Javascript, CSS, Bootstrap, HTML,
+                                            MySQL, SQLite, Apache, Nginx, Amazon Web Services.</p>
+                                    </li>
+                                    <li>
+                                        <p>Work closely with the financial team to understand their use cases and
+                                            the build tools for streamlining their research effort.</p>
+                                    </li>
+                                    <li>
+                                        <p>Develop an outward facing platform for clients to access and interact
+                                            with the financial team&#39;s research efforts.</p>
+                                    </li>
+                                    <li>
+                                        <p>Develop an internal facing platform for the financial team to organize
+                                            and manage their research process.</p>
+                                    </li>
+                                    <li>
+                                        <p>Setup and maintain the cloud infrastructure responsible for hosting PivotalPath&#39;s
+                                            platform services.</p>
+                                    </li>
+                                    <li>
+                                        <p>JIRA, Confluence, HipChat, and GitHub is used to manage and organize workflow
+                                            processes.</p>
+                                    </li>
+                                    <li>
+                                        <p>Work together in a team of software engineers.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                    </section>
+                    <section class="work-item">
+                        <input id="work-item-3" type="checkbox" class="toggle-item" />
+                        <label for="work-item-3"></label>
+                        <header>
+                            <div class="position">Medical Records Clerk</div>
+                            <div class="company">Maimonides Medical Center</div>
+                            <div class="date"> <span class="startDate">@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~July~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@ 2011</span> 
+                                <span
+                                class="endDate">- @@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~September~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@~@@@@
+                                    2011</span>
+                            </div>
+                        </header>	<span class="location">
+    				<span class="fa fa-map-marker"></span> 	<span class="city">Brooklyn,</span>
+
+                        <span
+                        class="countryCode">(US)</span>	<span class="region">New York</span> </span>	<span class="website">
+        		<a target="_blank" href="http://www.maimonidesmed.org/">http://www.maimonidesmed.org/</a>
+        	</span> 
+                            <div class="item" id="work-item">
+                                <div class="summary">
+                                    <p>
+                                        <p>The Hospital Information Services Department of Maimonides Medical Center
+                                            was responsible for maintaining the medical records of the patients at
+                                            the Maimonides Medical Center. This included tasks such as identifying
+                                            incomplete records, ensuring the results of tests and procedures were associated
+                                            with the correct record, and acquiring the necessary approval or signatures
+                                            from the appropriate physicians.</p>
+                                    </p>
+                                </div>
+                                <ul class="highlights">
+                                    <li>
+                                        <p>Maintain and organize medical records.</p>
+                                    </li>
+                                    <li>
+                                        <p>Identify medical records that were missing physician signatures or reviews.</p>
+                                    </li>
+                                    <li>
+                                        <p>Assist physicians in locating their patient&#39;s medical records.</p>
+                                    </li>
+                                    <li>
+                                        <p>Handle sensitive information daily with care and professionalism.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                    </section>
                 </section>
             </section>
             <section class="section">
                 <header>
-                    	<h2 class='section-title'>Education <span class="item-count">(2)</span></h2>
+                     <h2 class='section-title'>Education <span class="item-count">(2)</span></h2>
 
                 </header>
                 <section id="education">
-                    <header class="clear">	<span class="space-left">
-										<span class="fa fa-caret-down"></span>
-</span>
-                        <div class="header-left">
-                            <div class="studyType">Bachelor</div>
-                            <div class="area">Computer Science</div>
-                            <div class="institution">Stony Brook University</div>
-                        </div>
-                        <div class="date">	<span class="startDate">
-										2009
-									</span>
-	<span class="endDate">
-										- 2013
-									</span>
+                    <section class="education-item">
+                        <header>
+                            <div class="header-left">
+                                <div class="studyType">Bachelor</div>
+                                <div class="area">Computer Science</div>
+                                <div class="institution">Stony Brook University</div>
+                            </div>
+                            <div class="date"> <span class="startDate">
+              2009
+              </span>
+ <span class="endDate">
+              - 2013
+              </span>
 
-                        </div>
-                    </header>	<span class="location">
-									<span class="fa fa-map-marker"></span>
-	<span class="city">
-											Stony Brook,
-										</span>
-	<span class="countryCode">
-											(US)
-										</span>
-	<span class="region">
-											New York
-										</span>
-</span>
-                    <ul class="courses">
-                        <li></li>
-                    </ul>
-                    <div class="item display" style="opacity:1">
-                        <div class='gpa'>	<strong> Grade:</strong>  <span>3.46</span>
+                            </div>
+                        </header> <span class="location">
+            <span class="fa fa-map-marker"></span>
+ <span class="city">Stony Brook, </span>
 
-                        </div>
-                    </div>
-                    <header class="clear">	<span class="space-left">
-										<span class="fa fa-caret-right"></span>
+                        <span
+                        class="countryCode">(US)</span> <span class="region">New York</span>
 </span>
-                        <div class="header-left">
-                            <div class="studyType">Bachelor</div>
-                            <div class="area">Applied Mathematics and Statistics</div>
-                            <div class="institution">Stony Brook University</div>
-                        </div>
-                        <div class="date">	<span class="startDate">
-										2009
-									</span>
-	<span class="endDate">
-										- 2013
-									</span>
+                            <ul class="courses">
+                                <li></li>
+                            </ul>
+                            <div class="item">
+                                <div class='gpa'> <strong> Grade:</strong>  <span>3.46</span>
 
-                        </div>
-                    </header>	<span class="location">
-									<span class="fa fa-map-marker"></span>
-	<span class="city">
-											Stony Brook,
-										</span>
-	<span class="countryCode">
-											(US)
-										</span>
-	<span class="region">
-											New York
-										</span>
+                                </div>
+                            </div>
+                    </section>
+                    <section class="education-item">
+                        <header>
+                            <div class="header-left">
+                                <div class="studyType">Bachelor</div>
+                                <div class="area">Applied Mathematics and Statistics</div>
+                                <div class="institution">Stony Brook University</div>
+                            </div>
+                            <div class="date"> <span class="startDate">
+              2009
+              </span>
+ <span class="endDate">
+              - 2013
+              </span>
+
+                            </div>
+                        </header> <span class="location">
+            <span class="fa fa-map-marker"></span>
+ <span class="city">Stony Brook, </span>
+
+                        <span
+                        class="countryCode">(US)</span> <span class="region">New York</span>
 </span>
-                    <ul class="courses">
-                        <li></li>
-                    </ul>
-                    <div class="item display none" style="opacity:0">
-                        <div class='gpa'>	<strong> Grade:</strong>  <span>3.46</span>
+                            <ul class="courses">
+                                <li></li>
+                            </ul>
+                            <div class="item">
+                                <div class='gpa'> <strong> Grade:</strong>  <span>3.46</span>
 
-                        </div>
-                    </div>
+                                </div>
+                            </div>
+                    </section>
                 </section>
             </section>
             <section class="section margin1">
                 <header>
-                    	<h2 class='section-title'>Languages</h2>
+                     <h2 class='section-title'>Languages</h2>
 
                 </header>
                 <section id="languages">
                     <div class="display">
-                        	<h3 class="language">
-											English
-										</h3>
+                         <h3 class="language">
+            English
+          </h3>
 
                         <div class="item">
-                            <div class="level fluency native speaker">	<em>Native speaker</em>
+                            <div class="level fluency native speaker"> <em>Native speaker</em>
 
                                 <div class="bar"></div>
                             </div>
@@ -1239,14 +1323,14 @@
             </section>
             <section class="section margin1">
                 <header>
-                    	<h2 class='section-title' class='section-title'>Interests</h2>
+                     <h2 class='section-title' class='section-title'>Interests</h2>
 
                 </header>
                 <section id="interests">
                     <div class="item">
-                        	<h3 class="name">
-										Books
-									</h3>
+                         <h3 class="name">
+            Books
+          </h3>
 
                         <ul class="keywords">
                             <li>Fiction</li>
@@ -1257,9 +1341,9 @@
                         </ul>
                     </div>
                     <div class="item">
-                        	<h3 class="name">
-										Video Games
-									</h3>
+                         <h3 class="name">
+            Video Games
+          </h3>
 
                         <ul class="keywords">
                             <li>Adventure Games</li>
@@ -1278,54 +1362,6 @@
                     </div>
                 </section>
             </section>
-        </div>
-        <script>
-            (function(){
-            				var elements = document.querySelector("#resume");
-            
-            				// adding the element to the all container
-            				// and using event delegation
-            				elements.addEventListener("click", function(e) {
-            					var current = e.target;
-            					// font awesone arrows
-            					var arrowRight = current.classList.contains('fa-caret-right');
-            					var arrowDown = current.classList.contains('fa-caret-down');
-            
-            					if(current && current.nodeName == "SPAN" && (arrowRight || arrowDown)) {
-            						var header = e.target.parentNode.parentNode;
-            						var item = header.nextSibling;
-            
-            						// select the .item element from the siblings
-            						while (!item || !item.classList || !item.classList.contains('item')) {
-            							item = item.nextSibling;
-            						}
-            
-            						// hide or show the .item element
-            						item.classList.toggle('none');
-            
-            						// if the .item is going to be shown then imcrease is opacity
-            						// every 20 milliseconds to make a fadeIn effect
-            						if (!item.classList.contains('none')) {
-            							var id = setInterval(function() {
-            								item.style.opacity = parseFloat(item.style.opacity) + 0.09;
-            								if (parseFloat(item.style.opacity) >= 1) {
-            									clearInterval(id);
-            								}
-            							}, 20);
-            						} else {
-            							item.style.opacity = 0;
-            						}
-            
-            						current.classList.toggle('fa-caret-right');
-            						current.classList.toggle('fa-caret-down');
-            					}
-            
-            				}, false);
-            
-            				// Make the #resume visible only when the DOM is fully loaded
-            				elements.style.opacity = '1';
-            			})();
-        </script>
     </body>
 
 </html>

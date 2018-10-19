@@ -5,7 +5,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "build": "node_modules/.bin/hackmyresume BUILD input/resume.json TO index.html -t node_modules/jsonresume-theme-stackoverflow2",
+    "build": "node_modules/.bin/hackmyresume BUILD input/resume.json TO index.html -t node_modules/jsonresume-theme-stackoverflow && node fix_dates.js",
     "start": "node_modules/.bin/hackmyresume NEW input/resume.json -f jrs",
     "validate": "node_modules/.bin/hackmyresume VALIDATE input/resume.json"
   },
@@ -21,9 +21,6 @@
   "homepage": "https://github.com/csLiKevin/csLiKevin.github.io#readme",
   "dependencies": {
     "hackmyresume": "^1.8.0",
-    "jsonresume-theme-stackoverflow2": "^1.0.6",
-    "jsonresume-theme-elegantprofile": "^1.6.12",
-    "jsonresume-theme-kendall": "^0.1.19",
-    "jsonresume-theme-spartacus": "^1.0.0"
+    "jsonresume-theme-stackoverflow": "^1.4.0"
   }
 }
