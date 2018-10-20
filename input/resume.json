@@ -115,9 +115,9 @@
       },
       "highlights": [
         "Maintain and organize medical records.",
-        "Identify medical records that were missing physician signatures or reviews.",
+        "Identify medical records that are incomplete and coordinate with physicians for reviews.",
         "Assist physicians in locating their patient's medical records.",
-        "Handle sensitive information daily with care and professionalism."
+        "Handle sensitive medical information professionally."
       ]
     }
   ],
@@ -136,9 +136,7 @@
       "startDate": "2009-08",
       "endDate": "2013-05",
       "gpa": "3.46",
-      "courses": [
-        ""
-      ]
+      "courses": []
     },
     {
       "institution": "Stony Brook University",
@@ -154,9 +152,7 @@
       "startDate": "2009-08",
       "endDate": "2013-05",
       "gpa": "3.46",
-      "courses": [
-        ""
-      ]
+      "courses": []
     }
   ],
   "skills": [
@@ -167,7 +163,8 @@
         "Django",
         "Django REST Framework",
         "Flask",
-        "Selenium"
+        "Selenium",
+        "SQLAlchemy"
       ]
     },
     {
@@ -177,6 +174,7 @@
         "AngularJS",
         "jQuery",
         "NodeJS",
+        "MobX",
         "ReactJS",
         "Redux"
       ]
@@ -189,88 +187,105 @@
       ]
     },
     {
-      "name": "Other Languages",
-      "level": "Beginner",
-      "keywords": [
-        "C",
-        "C#",
-        "C++",
-        "Ruby"
-      ]
-    },
-    {
       "name": "Web Development",
       "level": "Advanced",
       "keywords": [
+        "Bootstrap",
         "CSS",
         "HTML",
         "Less",
-        "PHP",
+        "Material Design",
         "XML"
       ]
     },
     {
-      "name": "Web Design",
-      "level": "Advanced",
-      "keywords": [
-        "Bootstrap",
-        "Material Design"
-      ]
-    },
-    {
-      "name": "Databases",
+      "name": "Amazon Web Services",
       "level": "Intermediate",
       "keywords": [
-        "MongoDB",
-        "MySQL",
-        "PostgreSQL",
-        "SQLite"
+        "API Gateway",
+        "CloudWatch",
+        "EC2",
+        "Elastic Beanstalk",
+        "Kinesis",
+        "Lambda",
+        "RDS",
+        "Route 53",
+        "S3"
       ]
     },
     {
-      "name": "Operations",
+      "name": "Apache",
+      "level": "Beginner"
+    },
+    {
+      "name": "C",
+      "level": "Beginner"
+    },
+    {
+      "name": "C#",
+      "level": "Beginner"
+    },
+    {
+      "name": "C++",
+      "level": "Beginner"
+    },
+    {
+      "name": "Docker",
+      "level": "Beginner"
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": [
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": [
+        "Linux Mint",
+        "Ubuntu"
+      ]
+    },
+    {
+      "name": "Nginx",
+      "level": "Beginner"
+    },
+    {
+      "name": "MongoDB",
+      "level": "Beginner"
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate"
+    },
+    {
+      "name": "PHP",
+      "level": "Beginner"
+    },
+    {
+      "name": "PostgeSQL",
+      "level": "Beginner"
+    },
+    {
+      "name": "Ruby",
+      "level": "Beginner"
+    },
+    {
+      "name": "SQLite",
+      "level": "Intermediate"
+    },
+    {
+      "name": "SVN",
       "level": "Beginner",
       "keywords": [
-        "Amazon Web Services",
-        "Apache",
-        "Docker",
-        "Nginx",
-        "Vagrant"
+        "Tortoise SVN"
       ]
     },
     {
-      "name": "Tools",
-      "level": "Advanced",
-      "keywords": [
-        "Eclipse",
-        "Git",
-        "HipChat",
-        "Linux",
-        "Linux Mint",
-        "Mac OS X",
-        "MATLAB",
-        "Microsoft Office",
-        "NetBeans",
-        "PyCharm",
-        "Slack",
-        "SVN",
-        "Tortoise SVN",
-        "Ubuntu",
-        "Visual Studio",
-        "Windows"
-      ]
-    },
-    {
-      "name": "Other",
-      "level": "Advanced",
-      "keywords": [
-        "Confluence",
-        "Datadog",
-        "GitHub",
-        "JIRA",
-        "Keen.io",
-        "Looker"
-      ]
+      "name": "Vagrant",
+      "level": "Beginner"
     }
   ],
   "languages": [
@@ -280,6 +295,14 @@
     }
   ],
   "interests": [
+    {
+      "name": "Board Games",
+      "keywords": [
+        "Alchemists",
+        "Dice Settlers",
+        "Photosynthesis"
+      ]
+    },
     {
       "name": "Books",
       "keywords": [
@@ -295,14 +318,17 @@
       "keywords": [
         "Adventure Games",
         "Fire Emblem",
+        "Heroes of the Storm",
         "Kirby",
         "League of Legends",
+        "Metroid",
         "Monster Hunter",
         "Nintendo 3DS",
         "Overwatch",
         "PC",
         "Pokémon",
         "Role Playing Games",
+        "Simulation Games",
         "Super Mario",
         "Zelda"
       ]
