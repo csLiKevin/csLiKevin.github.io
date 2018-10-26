@@ -2,12 +2,12 @@
   "basics": {
     "name": "Kevin Li",
     "label": "Software Engineer",
-    "picture": "images/favicon.png",
-    "email": "",
+    "picture": "images/favicon.svg",
+    "__email": "",
     "phone": "",
     "degree": "Bachelors of Science Double Major",
     "website": "http://kevinli.us",
-    "summary": "Software engineer with a passion for problem solving, an eye for detail, and a strong mathematics background. Well organized, prompt, attentive, adaptive, and works well within a team or on solo projects. Loves to tackle complex software problems. Interested in being part of innovative and technically challenging projects. Responsive to criticism and always looking for ways to improve as an engineer.",
+    "summary": "Software engineer with a strong mathematics background. Loves to tackle complex software problems. Interested in being part of innovative and technically challenging projects.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -32,10 +32,10 @@
     {
       "company": "The Orchard",
       "position": "Software Engineer",
-      "website": "http://www.theorchard.com/",
+      "website": "https://www.theorchard.com/",
       "startDate": "2017-06-19",
       "__endDate": "",
-      "summary": "The Orchard is a pioneering music, video and film distribution company and top-ranked Multi Channel Network operating in more than 25 global markets. With a holistic approach to sales and marketing combined with industry-leading technology and operations, The Orchard amplifies reach and revenue across hundreds of digital, physical and mobile outlets around the world. The Orchard streamlines content owners'​ business complexity with an intuitive client dashboard, comprehensive rights management and tailored client support. Founded in 1997, The Orchard empowers businesses and creators in the entertainment industry.",
+      "summary": "The Orchard is a leading music, film and video distribution company operating in over 30 markets worldwide. With a comprehensive artist & label services offering including full-service marketing, sync licensing, video services, transparent data analysis, advertising, rights management, digital and physical distribution and more, The Orchard empowers creators and businesses to grow and adapt in the dynamic global industry.",
       "location": {
         "address": "23rd East 4th Street, 3rd Floor",
         "postalCode": "10003",
@@ -44,6 +44,12 @@
         "region": "New York"
       },
       "highlights": [
+        "Create functionality for clients to correct release metadata and update all stores the release has been distributed to.",
+        "Create a unique artist catalog by overhauling the UI for capturing artist metadata and deduping the existing artist catalog.",
+        "Implement features to become an Apple Preferred Plus music distributor.",
+        "Implement features to support becoming one of the first companies in the music industry to become an ISNI (International Standard Name Identifier) registration agency.",
+        "Improve application performance by reducing the size of Javascript files served to clients by 75% and eliminating redundant API calls.",
+        "Decreased build times by 66% by optimize the internationalization feature."
       ]
     },
     {
@@ -52,35 +58,29 @@
       "website": "https://www.wyng.com/",
       "startDate": "2015-07-22",
       "endDate": "2017-06-16",
-      "summary": "Wyng is a marketing platform for brands and agencies to build and run campaigns that drive participation and elevate consumer influence. We powered the first Super Bowl hashtag commercial in 2011. Since then, we've continued to evolve our platform to align with shifts in consumer behavior through a robust library of campaign templates.",
+      "summary": "Wyng builds technology that powers compelling digital campaigns and promotions for agencies and brands. In 2011, Wyng powered the first ever hashtag campaign in connection with a Super Bowl ad, and continues to evolve its platform to align with shifts in consumer behavior.",
       "location": {
-        "address": "360 Park Avenue South, 20th Floor",
+        "address": "55 West 21st St, 3rd Floor",
         "postalCode": "10010",
         "city": "New York City",
         "countryCode": "US",
         "region": "New York"
       },
       "highlights": [
-        "Technologies: Python, Django, Flask, Selenium, Javascript, jQuery, ReactJS, Redux, AngularJS, NodeJS, CSS, Less, Bootstrap, Material Design, HTML, Amazon Web Services, Apache, Vagrant, Docker, MySQL, MongoDB",
-        "Led the project for surfacing campaign performance to clients and provide clients with consumer insights throughout the lifetime of a campaign.",
-        "Create new features in the platform to increase the value being delivered to clients and improve their user experience.",
-        "Improve the platform's client onboarding process and user interface experience to drive higher engagement and retention within the platform.",
-        "Visually refresh the platform by building a new UI based on Material's design philosophy.",
-        "Modernize the platform by adopting modern technologies such as ReactJS and Redux.",
-        "Maintain, update, improve, and refactor existing legacy code.",
-        "Write user acceptance and unit tests.",
-        "JIRA, Confluence, Slack, and GitHub is used to manage and organize workflow processes.",
-        "Travis and Jenkins is used for continuous integration testing.",
-        "Work together in a team of software engineers."
+        "Provide clients tranparency into campaign performance by aggregating millions of events a day into a personalized analytics dashboard.",
+        "Streamline our onboarding process by replacing our platform's tight integration with obsolete authentication systems.",
+        "Design and create a user authentication system and seamlessly migrate all our users",
+        "Create a template system to decrease the time between onboarding and when a client creates their first campaign.",
+        "Modernize the platform by creating UI based on Material design and replacing old monolithic code with better organized code written with ReactJs and Redux."
       ]
     },
     {
       "company": "PivotalPath (formerly Gallatin Advisers)",
       "position": "Software Engineer",
-      "website": "http://www.pivotalpath.com/",
+      "website": "https://www.pivotalpath.com/",
       "startDate": "2013-07-01",
       "endDate": "2015-03-20",
-      "summary": "PivotalPath is a new model investment consultancy, bridging the gap that currently separates the interests of traditional investment consultants from those of CIOs.  Its investor portal, PivotalBase offers information and analysis on a distilled group of 850+ hedge funds including 200+ in-depth qualitative and quantitative assessments, along with a set of tools to navigate them. Advising on over $6.5 billion in hedge fund assets comprised of single and multi-family offices, pensions, endowments and foundations, PivotalPath provides services including investment due diligence, sourcing, portfolio construction, monitoring, and bespoke projects.",
+      "summary": "PivotalPath is a hedge fund intelligence organization built by a team of experienced allocators and technologists. The firm evaluates investments from an allocator’s perspective and provides comprehensive ratings on 1,500+ funds, accounting for over 90% of global hedge fund assets.",
       "location": {
         "address": "444 Madison Avenue, 29th Floor",
         "postalCode": "10022",
@@ -89,23 +89,20 @@
         "region": "New York"
       },
       "highlights": [
-        "Help build and design the codebase from scratch.",
-        "Technologies: Python, Django, Java, Javascript, CSS, Bootstrap, HTML, MySQL, SQLite, Apache, Nginx, Amazon Web Services.",
-        "Work closely with the financial team to understand their use cases and the build tools for streamlining their research effort.",
-        "Develop an outward facing platform for clients to access and interact with the financial team's research efforts.",
-        "Develop an internal facing platform for the financial team to organize and manage their research process.",
-        "Setup and maintain the cloud infrastructure responsible for hosting PivotalPath's platform services.",
-        "JIRA, Confluence, HipChat, and GitHub is used to manage and organize workflow processes.",
-        "Work together in a team of software engineers."
+        "Help build and design the codebase foundation as the first engineer hire.",
+        "Work closely with the financial team to build tools for streamlining their workflow.",
+        "Create a client platform for displaying metrics, analytics, and research for our library of hedge funds.",
+        "Create an internal platform for the financial team to manage their research material and update the contents of the client platform.",
+        "Design and setup the cloud infrastructure that powers PivotalPath's platform services."
       ]
     },
     {
       "company": "Maimonides Medical Center",
       "position": "Medical Records Clerk",
-      "website": "http://www.maimonidesmed.org/",
+      "website": "https://www.maimonidesmed.org/",
       "startDate": "2011-07",
       "endDate": "2011-09",
-      "summary": "The Hospital Information Services Department of Maimonides Medical Center was responsible for maintaining the medical records of the patients at the Maimonides Medical Center. This included tasks such as identifying incomplete records, ensuring the results of tests and procedures were associated with the correct record, and acquiring the necessary approval or signatures from the appropriate physicians.",
+      "summary": "The Hospital Information Services Department of Maimonides Medical Center is responsible for maintaining the medical records of patients.",
       "location": {
         "address": "4802 Tenth Avenue, 5th Floor",
         "postalCode": "11219",
@@ -214,26 +211,6 @@
       ]
     },
     {
-      "name": "Apache",
-      "level": "Beginner"
-    },
-    {
-      "name": "C",
-      "level": "Beginner"
-    },
-    {
-      "name": "C#",
-      "level": "Beginner"
-    },
-    {
-      "name": "C++",
-      "level": "Beginner"
-    },
-    {
-      "name": "Docker",
-      "level": "Beginner"
-    },
-    {
       "name": "Git",
       "level": "Intermediate",
       "keywords": [
@@ -249,43 +226,12 @@
       ]
     },
     {
-      "name": "Nginx",
-      "level": "Beginner"
-    },
-    {
-      "name": "MongoDB",
-      "level": "Beginner"
-    },
-    {
       "name": "MySQL",
       "level": "Intermediate"
     },
     {
-      "name": "PHP",
-      "level": "Beginner"
-    },
-    {
-      "name": "PostgeSQL",
-      "level": "Beginner"
-    },
-    {
-      "name": "Ruby",
-      "level": "Beginner"
-    },
-    {
       "name": "SQLite",
       "level": "Intermediate"
-    },
-    {
-      "name": "SVN",
-      "level": "Beginner",
-      "keywords": [
-        "Tortoise SVN"
-      ]
-    },
-    {
-      "name": "Vagrant",
-      "level": "Beginner"
     }
   ],
   "languages": [
@@ -294,44 +240,5 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [
-    {
-      "name": "Board Games",
-      "keywords": [
-        "Alchemists",
-        "Dice Settlers",
-        "Photosynthesis"
-      ]
-    },
-    {
-      "name": "Books",
-      "keywords": [
-        "Fiction",
-        "Isaac Asimov",
-        "Orson Scott Card",
-        "Science Fiction",
-        "Ted Chiang"
-      ]
-    },
-    {
-      "name": "Video Games",
-      "keywords": [
-        "Adventure Games",
-        "Fire Emblem",
-        "Heroes of the Storm",
-        "Kirby",
-        "League of Legends",
-        "Metroid",
-        "Monster Hunter",
-        "Nintendo 3DS",
-        "Overwatch",
-        "PC",
-        "Pokémon",
-        "Role Playing Games",
-        "Simulation Games",
-        "Super Mario",
-        "Zelda"
-      ]
-    }
-  ]
+  "interests": []
 }
