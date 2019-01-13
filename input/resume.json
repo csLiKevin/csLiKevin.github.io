@@ -30,7 +30,7 @@
   },
   "work": [
     {
-      "company": "The Orchard",
+      "company": "The Orchard (Sony Music Entertainment)",
       "position": "Software Engineer",
       "website": "https://www.theorchard.com/",
       "startDate": "2017-06-19",
@@ -44,12 +44,12 @@
         "region": "New York"
       },
       "highlights": [
-        "Create functionality for clients to correct release metadata and update all stores the release has been distributed to.",
-        "Create a unique artist catalog by overhauling the UI for capturing artist metadata and deduping the existing artist catalog.",
-        "Implement features to become an Apple Preferred Plus music distributor.",
-        "Implement features to support becoming one of the first companies in the music industry to become an ISNI (International Standard Name Identifier) registration agency.",
-        "Improve application performance by reducing the size of Javascript files served to clients by 75% and eliminating redundant API calls.",
-        "Decreased build times by 66% by optimize the internationalization feature."
+        "Created functionality for clients to update releases post distribution.",
+        "Created a unique artist catalog by overhauling the UI for capturing artist metadata and deduping the existing artist catalog.",
+        "Implemented features required to become an Apple Preferred Plus and Spotify Preferred music distributor.",
+        "Implemented features to support becoming one of the first companies in the music industry to become an ISNI (International Standard Name Identifier) registration agency.",
+        "Improved application performance by reducing the size of Javascript files served to clients by 75% and eliminating redundant API calls.",
+        "Decreased build times by 66% by optimizing the internationalization feature."
       ]
     },
     {
@@ -67,11 +67,11 @@
         "region": "New York"
       },
       "highlights": [
-        "Provide clients tranparency into campaign performance by aggregating millions of events a day into a personalized analytics dashboard.",
-        "Streamline our onboarding process by replacing our platform's tight integration with obsolete authentication systems.",
-        "Design and create a user authentication system and seamlessly migrate all our users",
-        "Create a template system to decrease the time between onboarding and when a client creates their first campaign.",
-        "Modernize the platform by creating UI based on Material design and replacing old monolithic code with better organized code written with ReactJs and Redux."
+        "Provided clients transparency into campaign performance by aggregating millions of events a day into a personalized analytics dashboard.",
+        "Streamlined our onboarding process by decoupling integrations with obsolete authentication systems.",
+        "Designed and created a user authentication system and seamlessly migrated all our users.",
+        "Created a template system to decrease the time between onboarding and when a client creates their first campaign.",
+        "Modernized the platform by creating UI based on Material design written with ReactJs and Redux. Replaced old monolithic code with better organized code in microservices."
       ]
     },
     {
@@ -82,8 +82,8 @@
       "endDate": "2015-03-20",
       "summary": "PivotalPath is a hedge fund intelligence organization built by a team of experienced allocators and technologists. The firm evaluates investments from an allocator’s perspective and provides comprehensive ratings on 1,500+ funds, accounting for over 90% of global hedge fund assets.",
       "location": {
-        "address": "444 Madison Avenue, 29th Floor",
-        "postalCode": "10022",
+        "address": "1460 Broadway",
+        "postalCode": "10036",
         "city": "New York City",
         "countryCode": "US",
         "region": "New York"
@@ -172,7 +172,7 @@
         "jQuery",
         "NodeJS",
         "MobX",
-        "ReactJS",
+        "React",
         "Redux"
       ]
     },
@@ -203,6 +203,7 @@
         "CloudWatch",
         "EC2",
         "Elastic Beanstalk",
+        "Elasticsearch Service",
         "Kinesis",
         "Lambda",
         "RDS",
@@ -232,6 +233,17 @@
     {
       "name": "SQLite",
       "level": "Intermediate"
+    },
+    {
+      "name": "Other",
+      "level": "",
+      "keywords": [
+        "Apache",
+        "Docker",
+        "Elasticsearch",
+        "Jenkins",
+        "Nginx"
+      ]
     }
   ],
   "languages": [
