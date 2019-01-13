@@ -3,7 +3,7 @@
     "name": "Kevin Li",
     "label": "Software Engineer",
     "picture": "images/favicon.svg",
-    "__email": "",
+    "email": "",
     "phone": "",
     "degree": "Bachelors of Science Double Major",
     "website": "http://kevinli.us",
@@ -34,7 +34,7 @@
       "position": "Software Engineer",
       "website": "https://www.theorchard.com/",
       "startDate": "2017-06-19",
-      "__endDate": "",
+      "endDate": "",
       "summary": "The Orchard is a leading music, film and video distribution company operating in over 30 markets worldwide. With a comprehensive artist & label services offering including full-service marketing, sync licensing, video services, transparent data analysis, advertising, rights management, digital and physical distribution and more, The Orchard empowers creators and businesses to grow and adapt in the dynamic global industry.",
       "location": {
         "address": "23rd East 4th Street, 3rd Floor",
@@ -125,7 +125,6 @@
         "address": "100 Nicolis Road",
         "postalCode": "11790",
         "city": "Stony Brook",
-        "countryCode": "US",
         "region": "New York"
       },
       "area": "Computer Science",
@@ -141,7 +140,6 @@
         "address": "100 Nicolis Road",
         "postalCode": "11790",
         "city": "Stony Brook",
-        "countryCode": "US",
         "region": "New York"
       },
       "area": "Applied Mathematics and Statistics",
