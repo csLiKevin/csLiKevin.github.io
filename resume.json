@@ -89,11 +89,10 @@
         "region": "New York"
       },
       "highlights": [
-        "Help build and design the codebase foundation as the first engineer hire.",
-        "Work closely with the financial team to build tools for streamlining their workflow.",
-        "Create a client platform for displaying metrics, analytics, and research for our library of hedge funds.",
-        "Create an internal platform for the financial team to manage their research material and update the contents of the client platform.",
-        "Design and setup the cloud infrastructure that powers PivotalPath's platform services."
+        "Built and designed the codebase foundation as the first engineer hire.",
+        "Developed client platform for accessing and interacting with our hedge fund research.",
+        "Created a tool for breaking down word documents into web pages and allow clients to download personalized PDF versions of a hedge fund profile.",
+        "Setup the cloud infrastructure for our platform."
       ]
     },
     {
