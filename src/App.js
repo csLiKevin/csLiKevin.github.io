@@ -1,11 +1,13 @@
-import React from "react";
-import {Container} from "rbx";
+import React, {Fragment} from "react";
+
+import resume from "./resume";
+import {Basics} from "./Basics";
 
 export function App() {
     return (
-        <Container>
-
-        </Container>
+        <Fragment>
+            <Basics {...resume.basics} />
+        </Fragment>
     );
 }
 

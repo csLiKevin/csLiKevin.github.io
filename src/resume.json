@@ -1,0 +1,30 @@
+{
+  "basics": {
+    "name": "Kevin Li",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "",
+    "phone": "",
+    "website": "https://kevinli.us",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Brooklyn",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "csLiKevin",
+        "url": "https://github.com/csLiKevin"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "csLiKevin",
+        "url": "https://www.linkedin.com/in/cslikevin"
+      }
+    ]
+  }
+}
