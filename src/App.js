@@ -1,7 +1,7 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from "react";
 
 import resume from "./resume";
-import {Basics} from "./Basics";
+import { Basics } from "./Basics";
 
 export function App() {
     return (

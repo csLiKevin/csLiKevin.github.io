@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "bulma/css/bulma.css";
 import "@fortawesome/fontawesome-free/js/all";
 
-import {App} from "./App";
+import { App } from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(<App />, document.getElementById("root"));
