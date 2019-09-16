@@ -122,5 +122,160 @@
             ],
             "pictures": ["images/logo-maimonides-medical-center.png"]
         }
+    ],
+    "volunteer": [
+        {
+            "organization": "",
+            "position": "",
+            "website": "",
+            "startDate": "",
+            "endDate": "",
+            "summary": "",
+            "highlights": [""]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Stony Brook University",
+            "area": "Computer Science",
+            "studyType": "Bachelor",
+            "startDate": "2009-08",
+            "endDate": "2013-05",
+            "gpa": "3.46",
+            "courses": [],
+            "pictures": ["images/logo-stony-brook-university.png"]
+        },
+        {
+            "institution": "Stony Brook University",
+            "area": "Applied Mathematics and Statistics",
+            "studyType": "Bachelor",
+            "startDate": "2009-08",
+            "endDate": "2013-05",
+            "gpa": "3.46",
+            "courses": [],
+            "pictures": ["images/logo-stony-brook-university.png"]
+        }
+    ],
+    "awards": [
+        {
+            "title": "",
+            "date": "",
+            "awarder": "",
+            "summary": ""
+        }
+    ],
+    "publications": [
+        {
+            "name": "",
+            "publisher": "",
+            "releaseDate": "",
+            "website": "",
+            "summary": ""
+        }
+    ],
+    "skills": [
+        {
+            "name": "Python",
+            "level": "Master",
+            "keywords": [
+                "Django",
+                "Django REST Framework",
+                "Flask",
+                "Selenium",
+                "SQLAlchemy"
+            ]
+        },
+        {
+            "name": "Javascript",
+            "level": "Advanced",
+            "keywords": [
+                "AngularJS",
+                "jQuery",
+                "NodeJS",
+                "MobX",
+                "React",
+                "Redux"
+            ]
+        },
+        {
+            "name": "Java",
+            "level": "Advanced",
+            "keywords": ["libGDX"]
+        },
+        {
+            "name": "Web Development",
+            "level": "Advanced",
+            "keywords": [
+                "Bootstrap",
+                "CSS",
+                "HTML",
+                "Less",
+                "Material Design",
+                "XML"
+            ]
+        },
+        {
+            "name": "Amazon Web Services",
+            "level": "Intermediate",
+            "keywords": [
+                "API Gateway",
+                "CloudWatch",
+                "EC2",
+                "Elastic Beanstalk",
+                "Elasticsearch Service",
+                "Kinesis",
+                "Lambda",
+                "RDS",
+                "Route 53",
+                "S3"
+            ]
+        },
+        {
+            "name": "Git",
+            "level": "Intermediate",
+            "keywords": ["GitHub"]
+        },
+        {
+            "name": "Linux",
+            "level": "Intermediate",
+            "keywords": ["Linux Mint", "Ubuntu"]
+        },
+        {
+            "name": "MySQL",
+            "level": "Intermediate"
+        },
+        {
+            "name": "SQLite",
+            "level": "Intermediate"
+        },
+        {
+            "name": "Other",
+            "level": "",
+            "keywords": [
+                "Apache",
+                "Docker",
+                "Elasticsearch",
+                "Jenkins",
+                "Nginx"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "",
+            "keywords": [""]
+        }
+    ],
+    "references": [
+        {
+            "name": "",
+            "reference": ""
+        }
     ]
 }

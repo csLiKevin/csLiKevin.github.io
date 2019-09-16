@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import DateRange from "./DateRange";
+
 export function Experience({ work }) {
     const jobs = work.map(
         ({
@@ -14,11 +16,6 @@ export function Experience({ work }) {
             pictures
         }) => {
             const sanitizedCompanyName = company.replace(/ *\([^)]*\) */g, "");
-            const startYear = parseInt(startDate);
-            const endYear = parseInt(endDate) || "Present";
-            const colorClass = endYear === "Present"
-                ? "has-text-primary"
-                : "has-text-grey-light";
             const companyPictures = pictures.map((picturePath, index) => {
                 return (
                     <p className="image is-128x128" key={picturePath}>
@@ -32,12 +29,8 @@ export function Experience({ work }) {
 
             return (
                 <article className="media" key={`${company}-job`}>
-                    <figure className="media-left">
-                        <div
-                            className={`is-daterange has-text-weight-bold is-size-5 ${colorClass}`}
-                        >
-                            {`${startYear} - ${endYear}`}
-                        </div>
+                    <figure className="has-text-centered media-left">
+                        <DateRange endDate={endDate} startDate={startDate} />
                         {companyPictures}
                     </figure>
                     <div className="media-content">
