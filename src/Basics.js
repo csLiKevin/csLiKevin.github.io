@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
 function getNetworkIconClasses(network) {
@@ -21,7 +21,13 @@ export function Basics({
 }) {
     const profileLinks = profiles.map(({ network, url }) => {
         return (
-            <a className="icon is-medium" href={url} target="_blank">
+            <a
+                className="icon is-medium"
+                href={url}
+                key={`${network}-profile`}
+                rel="noopener noreferrer"
+                target="_blank"
+            >
                 <i className={`${getNetworkIconClasses(network)} fa-lg`} />
             </a>
         );
@@ -31,15 +37,13 @@ export function Basics({
         <section className="hero is-fullheight">
             <div className="hero-body">
                 <div className="container">
-                    <h1 className="title is-size-1">{name}</h1>
-                    <h2 className="subtitle is-size-4">{label}</h2>
-                    <div className="is-flex" style={{ marginTop: "-1.25rem" }}>
-                        {`${city}, ${region}, ${countryCode}`}
-                    </div>
-                    <a className="is-block" href={website}>
-                        {website}
-                    </a>
-                    <Fragment className="is-block">{profileLinks}</Fragment>
+                    <h1 className="is-size-1 title">{name}</h1>
+                    <h2 className="is-marginless-bottom is-size-4 subtitle">
+                        {label}
+                    </h2>
+                    <div>{`${city}, ${region}, ${countryCode}`}</div>
+                    <a href={website}>{website}</a>
+                    <div>{profileLinks}</div>
                 </div>
             </div>
         </section>
