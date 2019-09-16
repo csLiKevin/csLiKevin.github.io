@@ -29,11 +29,30 @@
     },
     "work": [
         {
+            "company": "Compass (Urban Compass)",
+            "position": "Senior Software Engineer",
+            "website": "https://www.compass.com/",
+            "startDate": "2019-08-26",
+            "endDate": "",
+            "summary": "Compass is a real estate technology company with a powerful end-to-end platform that supports the entire buying and selling workflow. We deliver an incomparable experience to both agents and their clients all in service of the Compass mission: to help everyone find their place in the world.",
+            "location": {
+                "address": "",
+                "postalCode": "",
+                "city": "",
+                "countryCode": "",
+                "region": ""
+            },
+            "highlights": [],
+            "pictures": [
+                "images/logo-compass.jpg"
+            ]
+        },
+        {
             "company": "The Orchard (Sony Music Entertainment)",
             "position": "Software Engineer",
             "website": "https://www.theorchard.com/",
             "startDate": "2017-06-19",
-            "endDate": "",
+            "endDate": "2019-08-23",
             "summary": "The Orchard is a leading music, film and video distribution company operating in over 30 markets worldwide. With a comprehensive artist & label services offering including full-service marketing, sync licensing, video services, transparent data analysis, advertising, rights management, digital and physical distribution and more, The Orchard empowers creators and businesses to grow and adapt in the dynamic global industry.",
             "location": {
                 "address": "",
