@@ -1,26 +1,49 @@
 {
-  "private": true,
   "name": "myresume",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "author": "",
   "description": "",
   "main": "",
-  "scripts": {
-    "build": "resume export index.html --force --theme stackoverflow",
-    "start": "resume init",
-    "validate": "resume test input/resume.json"
-  },
+  "homepage": "https://kevinli.us/build",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/csLiKevin/csLiKevin.github.io.git"
   },
-  "author": "",
-  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/csLiKevin/csLiKevin.github.io/issues"
   },
-  "homepage": "https://github.com/csLiKevin/csLiKevin.github.io#readme",
   "dependencies": {
-    "jsonresume-theme-stackoverflow": "^1.4.0",
-    "resume-cli": "^1.1.2"
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "bulma": "^0.7.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "build": "react-scripts build && mv build/index.html index.html",
+    "eject": "react-scripts eject",
+    "lint": "prettier src/* --write --tab-width=4",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

@@ -1,0 +1,13 @@
+.image + .image {
+    margin-top: 1rem;
+}
+
+.is-marginless-bottom {
+    margin-bottom: 0 !important;
+}
+
+.is-daterange {
+    margin-bottom: 0.2rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
