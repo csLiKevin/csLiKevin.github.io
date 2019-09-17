@@ -34,7 +34,7 @@ export function Basics({
     });
 
     return (
-        <section className="hero is-fullheight">
+        <section className="hero is-fullheight is-primary">
             <div className="hero-body">
                 <div className="container">
                     <h1 className="is-size-1 title">{name}</h1>

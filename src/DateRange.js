@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export function DateRange({ startDate, endDate }) {
     const startYear = parseInt(startDate);
     const endYear = parseInt(endDate) || "";
-    const colorClass = endYear ? "has-text-grey-light" : "has-text-primary";
+    const colorClass = endYear ? "has-text-grey-light" : "has-text-success";
 
     return (
         <div

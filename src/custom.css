@@ -11,3 +11,12 @@
     margin-left: 0.2rem;
     margin-right: 0.2rem;
 }
+
+/* Lux theme overrides. */
+.lux {
+    background-color: hsl(0, 0%, 96%);
+}
+
+.lux .hero a:hover {
+    color: white;
+}

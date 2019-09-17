@@ -5,6 +5,7 @@ import "bulma/css/bulma.css";
 
 import { App } from "./App";
 import * as serviceWorker from "./serviceWorker";
+import "./bulmaswatch.min.css"
 import "./custom.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));

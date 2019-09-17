@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import resume from "./resume";
 import { Basics } from "./Basics";
@@ -7,11 +7,11 @@ import Education from "./Education";
 
 export function App() {
     return (
-        <Fragment>
+        <div className="lux">
             <Basics {...resume.basics} />
             <Experience work={resume.work} />
             <Education education={resume.education} />
-        </Fragment>
+        </div>
     );
 }
 
