@@ -6,7 +6,7 @@
   "author": "",
   "description": "",
   "main": "",
-  "homepage": "https://github.com/csLiKevin/csLiKevin.github.io#readme",
+  "homepage": "https://kevinli.us/build",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/csLiKevin/csLiKevin.github.io.git"
@@ -25,7 +25,7 @@
     "prettier": "^1.18.2"
   },
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-scripts build && mv build/index.html index.html",
     "eject": "react-scripts eject",
     "lint": "prettier src/* --write --tab-width=4",
     "start": "react-scripts start",
