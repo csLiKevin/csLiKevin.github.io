@@ -27,7 +27,7 @@
   "scripts": {
     "build": "react-scripts build && mv build/index.html index.html",
     "eject": "react-scripts eject",
-    "lint": "prettier src/* --write --tab-width=4",
+    "lint": "prettier src/* --tab-width=4 --write",
     "start": "react-scripts start",
     "test": "react-scripts test"
   },

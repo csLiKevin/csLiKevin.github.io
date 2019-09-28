@@ -42,10 +42,10 @@
                 "countryCode": "",
                 "region": ""
             },
-            "highlights": [],
-            "pictures": [
-                "images/logo-compass.jpg"
-            ]
+            "highlights": [
+                "Rolled out one time password authentication feature to protect agents from phishing attempts."
+            ],
+            "pictures": ["images/logo-compass.jpg"]
         },
         {
             "company": "The Orchard (Sony Music Entertainment)",
@@ -67,7 +67,9 @@
                 "Implemented features required to become an Apple Preferred Plus and Spotify Preferred music distributor.",
                 "Implemented features to support becoming one of the first companies in the music industry to become an ISNI (International Standard Name Identifier) registration agency.",
                 "Improved application performance by reducing the size of Javascript files served to clients by 75% and eliminating redundant API calls.",
-                "Decreased build times by 66% by optimizing the internationalization feature."
+                "Decreased build times by 66% by optimizing the internationalization feature.",
+                "Moved platform towards a single page app structure to improve performance.",
+                "Migrated test suite to Jest."
             ],
             "pictures": [
                 "images/logo-the-orchard.png",
