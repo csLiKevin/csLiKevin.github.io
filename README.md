@@ -10,7 +10,9 @@ Project for generating an online resume. Resume information is defined using the
 ##### Commands
 - `npm run build` - Bundles the app into static files for production.
 - `npm run lint` - Format source files.
-- `npm start` - Starts the development server.
+- `npm run server` - Starts the development server.
+- `npm run watch` - Build static files and watch for changes.
+- `npm start` - Run `server` and `watch` in parallel.
 
 ##### Instructions
 1. Clone this repository.
