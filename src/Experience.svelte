@@ -19,7 +19,7 @@
 
     // Sanitize the company name.
     work.forEach(
-        job => (job.company = job.company.replace(/ *\([^)]*\) */g, ""))
+        (job) => (job.company = job.company.replace(/ *\([^)]*\) */g, ""))
     );
 </script>
 
