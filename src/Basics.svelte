@@ -36,12 +36,6 @@
     }
 </script>
 
-<style>
-    .is-marginless-bottom {
-        margin-bottom: 0 !important;
-    }
-</style>
-
 <section class="hero is-fullheight is-primary">
     <div class="hero-body">
         <div class="container">
@@ -55,7 +49,8 @@
                         class="icon is-medium"
                         href={url}
                         rel="noopener noreferrer"
-                        target="_blank">
+                        target="_blank"
+                    >
                         <i class={`${getNetworkIconClasses(network)} fa-lg`} />
                     </a>
                 {/each}
@@ -63,3 +58,9 @@
         </div>
     </div>
 </section>
+
+<style>
+    .is-marginless-bottom {
+        margin-bottom: 0 !important;
+    }
+</style>

@@ -18,10 +18,10 @@ export default {
     },
     plugins: [
         svelte({
-            // Enable run-time checks during development.
-            dev: development,
-            // Bundle css into a single file.
-            css: (css) => css.write("public/generated/index.css"),
+            compilerOptions: {
+                // Enable run-time checks during development.
+                dev: development,
+            },
         }),
         resolve({
             browser: true,
@@ -29,7 +29,7 @@ export default {
         }),
         commonjs(),
         json(),
-        css({ output: "public/generated/app.css" }),
+        css({ output: "app.css" }),
         // Automatically reload the browser during development.
         development && liveReload("public/generated"),
         // Minify for production.

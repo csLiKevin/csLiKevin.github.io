@@ -34,7 +34,8 @@
                         <p class="image is-128x128">
                             <img
                                 alt={`${company} logo ${index}`}
-                                src={`/public/${picturePath}`} />
+                                src={`/public/${picturePath}`}
+                            />
                         </p>
                     {/each}
                 </figure>
@@ -43,7 +44,8 @@
                         <a
                             href={website}
                             rel="noopener noreferrer"
-                            target="_blank">
+                            target="_blank"
+                        >
                             {company}
                         </a>
                     </h1>

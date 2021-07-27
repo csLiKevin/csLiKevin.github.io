@@ -28,7 +28,8 @@
                         <p class="image is-96x96 is-inline-flex">
                             <img
                                 alt={`${institution} logo ${index}`}
-                                src={`/public/${picturePath}`} />
+                                src={`/public/${picturePath}`}
+                            />
                         </p>
                     {/each}
                 </figure>
