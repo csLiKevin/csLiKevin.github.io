@@ -43,14 +43,16 @@
                 "region": ""
             },
             "highlights": [
-                "Created service for other teams to query all our authorization data in one place.",
-                "Participated in evaluation of identity providers and eventual integration with the chosen identity provider.",
+                "Tech lead for the authentication squad.",
+                "Mentored junior engineers and set priorities for the team.",
+                "Created service unifying access to authorization data.",
+                "Evaluated identity providers and integrated the chosen identity provider.",
                 "Captured our identity provider settings in code, setup a deployment pipeline, and codified development workflow.",
-                "Worked with other teams to integrate invitation flows with their features.",
-                "Unified authentication systems with subsidiaries that were acquired.",
-                "Served as tech lead for the authentication squad.",
-                "Added passwordless authentication feature for agents to protect agents from phishing attempts.",
-                "Revamped authentication flow by adding new login methods and a new user interface."
+                "Worked with other teams to design and integrate invitation flows for their features.",
+                "Unified authentication systems with subsidiaries.",
+                "Added Passwordless authentication feature for agents to protect agents from phishing attempts.",
+                "Revamped authentication flow by adding new login methods and a new user interface. Login success rate went from 82% to over 95%.",
+                "Fixed security issues in our authentication flows."
             ],
             "pictures": ["images/logo-compass.jpg"]
         },
