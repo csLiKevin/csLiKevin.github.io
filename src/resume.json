@@ -29,11 +29,28 @@
     },
     "work": [
         {
+            "company": "Meta",
+            "position": "Senior Software Engineer",
+            "website": "https://about.facebook.com/",
+            "startDate": "2019-08-26",
+            "endDate": "2022-05-06",
+            "summary": "Meta builds technologies that help people connect, find communities, and grow businesses.",
+            "location": {
+                "address": "",
+                "postalCode": "",
+                "city": "",
+                "countryCode": "",
+                "region": ""
+            },
+            "highlights": [],
+            "pictures": ["images/logo-meta.png"]
+        },
+        {
             "company": "Compass (Urban Compass)",
             "position": "Senior Software Engineer",
             "website": "https://www.compass.com/",
             "startDate": "2019-08-26",
-            "endDate": "",
+            "endDate": "2022-05-06",
             "summary": "Compass is a real estate technology company with a powerful end-to-end platform that supports the entire buying and selling workflow. We deliver an incomparable experience to both agents and their clients all in service of the Compass mission: to help everyone find their place in the world.",
             "location": {
                 "address": "",
@@ -123,9 +140,9 @@
                 "region": ""
             },
             "highlights": [
-                "First engineer hire; built and designed codebase",
+                "First engineer hire; built and designed codebase.",
                 "Developed client facing platform for accessing our hedge fund research.",
-                "Created tool for converting word documents into web pages",
+                "Created tool for converting word documents into web pages.",
                 "Added functionality for clients to download personalized PDFs of hedge fund profiles.",
                 "Setup cloud infrastructure and automation for our platform."
             ],
