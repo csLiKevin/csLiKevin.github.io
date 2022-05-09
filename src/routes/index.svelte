@@ -4,7 +4,7 @@
     import Experience from "$lib/Experience.svelte";
     import Education from "$lib/Education.svelte";
 
-    export let resume;
+    export let resume: Resume;
 </script>
 
 <svelte:head>
@@ -12,7 +12,7 @@
 </svelte:head>
 
 <div class="lux">
-    <Basics {...resume.basics} />
+    <Basics info={resume.basics} />
     <Experience work={resume.work} />
     <Education education={resume.education} />
 </div>

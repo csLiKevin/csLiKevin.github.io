@@ -1,35 +1,20 @@
-<script>
+<script lang="ts">
     import Fa from "svelte-fa";
     import { faGithubSquare } from "@fortawesome/free-brands-svg-icons/faGithubSquare";
     import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
     import { faCommentAlt } from "@fortawesome/free-regular-svg-icons/faCommentAlt";
 
-    // propTypes = {
-    //     label: PropTypes.string,
-    //     location: PropTypes.shape({
-    //         city: PropTypes.string,
-    //         countryCode: PropTypes.string,
-    //         region: PropTypes.string
-    //     }),
-    //     name: PropTypes.string,
-    //     profiles: PropTypes.arrayOf(
-    //         PropTypes.shape({
-    //             network: PropTypes.string,
-    //             username: PropTypes.string,
-    //             url: PropTypes.string
-    //         })
-    //     ),
-    //     website: PropTypes.string
-    // };
-    export let label;
-    export let location;
-    export let name;
-    export let profiles;
-    export let website;
+    export let info: Basics;
 
-    const { city, countryCode, region } = location;
+    const {
+        label,
+        location: { city, countryCode, region },
+        name,
+        profiles,
+        url,
+    } = info;
 
-    function getNetworkIcon(network) {
+    function getNetworkIcon(network: string) {
         switch (network.toLowerCase()) {
             case "github":
                 return faGithubSquare;
@@ -47,7 +32,7 @@
             <h1 class="is-size-1 title">{name}</h1>
             <h2 class="is-marginless-bottom is-size-4 subtitle">{label}</h2>
             <div>{`${city}, ${region}, ${countryCode}`}</div>
-            <a href={website}>{website}</a>
+            <a href={url}>{url}</a>
             <div>
                 {#each profiles as { network, url }}
                     <a

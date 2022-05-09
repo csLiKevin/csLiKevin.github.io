@@ -13,6 +13,7 @@ const config = {
         adapter: adapter({
             assets: BUILD_DIRECTORY,
             pages: BUILD_DIRECTORY,
+            precompress: true,
         }),
         prerender: {
             default: true,

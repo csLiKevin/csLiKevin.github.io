@@ -1,11 +1,11 @@
-const resume = {
+const resume: Resume = {
     basics: {
         name: "Kevin Li",
         label: "Software Engineer",
-        picture: "",
+        image: "",
         email: "",
         phone: "",
-        website: "https://kevinli.us",
+        url: "https://kevinli.us",
         summary: "",
         location: {
             address: "",
@@ -29,38 +29,24 @@ const resume = {
     },
     work: [
         {
-            company: "Meta",
+            name: "Meta (Facebook)",
             position: "Senior Software Engineer",
-            website: "https://about.facebook.com/",
+            url: "https://about.facebook.com/",
             startDate: "2022-05-16",
             endDate: "",
             summary:
                 "Meta builds technologies that help people connect, find communities, and grow businesses.",
-            location: {
-                address: "",
-                postalCode: "",
-                city: "",
-                countryCode: "",
-                region: "",
-            },
             highlights: [],
             pictures: ["images/logo-meta.png"],
         },
         {
-            company: "Compass (Urban Compass)",
+            name: "Compass (Urban Compass)",
             position: "Senior Software Engineer",
-            website: "https://www.compass.com/",
+            url: "https://www.compass.com/",
             startDate: "2019-08-26",
             endDate: "2022-05-06",
             summary:
                 "Compass is a real estate technology company with a powerful end-to-end platform that supports the entire buying and selling workflow. We deliver an incomparable experience to both agents and their clients all in service of the Compass mission: to help everyone find their place in the world.",
-            location: {
-                address: "",
-                postalCode: "",
-                city: "",
-                countryCode: "",
-                region: "",
-            },
             highlights: [
                 "Tech lead for the authentication squad.",
                 "Mentored junior engineers and set priorities for the team.",
@@ -76,20 +62,13 @@ const resume = {
             pictures: ["images/logo-compass.jpg"],
         },
         {
-            company: "The Orchard (Sony Music Entertainment)",
+            name: "The Orchard (Sony Music Entertainment)",
             position: "Software Engineer",
-            website: "https://www.theorchard.com/",
+            url: "https://www.theorchard.com/",
             startDate: "2017-06-19",
             endDate: "2019-08-23",
             summary:
                 "The Orchard is a leading music, film and video distribution company operating in over 30 markets worldwide. With a comprehensive artist & label services offering including full-service marketing, sync licensing, video services, transparent data analysis, advertising, rights management, digital and physical distribution and more, The Orchard empowers creators and businesses to grow and adapt in the dynamic global industry.",
-            location: {
-                address: "",
-                postalCode: "",
-                city: "",
-                countryCode: "",
-                region: "",
-            },
             highlights: [
                 "Created functionality for clients to update metadata of releases post distribution.",
                 "Created a unique artist catalog by overhauling the UI for capturing artist metadata and deduping the existing artist catalog.",
@@ -106,20 +85,13 @@ const resume = {
             ],
         },
         {
-            company: "Wyng (Offerpop)",
+            name: "Wyng (Offerpop)",
             position: "Software Engineer",
-            website: "https://www.wyng.com/",
+            url: "https://www.wyng.com/",
             startDate: "2015-07-22",
             endDate: "2017-06-16",
             summary:
                 "Wyng builds technology that powers compelling digital campaigns and promotions for agencies and brands. In 2011, Wyng powered the first ever hashtag campaign in connection with a Super Bowl ad, and continues to evolve its platform to align with shifts in consumer behavior.",
-            location: {
-                address: "",
-                postalCode: "",
-                city: "",
-                countryCode: "",
-                region: "",
-            },
             highlights: [
                 "Provided clients transparency into campaign performance by aggregating millions of events a day into a personalized analytics dashboard.",
                 "Streamlined our onboarding process by decoupling integrations with obsolete authentication systems.",
@@ -130,20 +102,13 @@ const resume = {
             pictures: ["images/logo-wyng.png", "images/logo-offerpop.png"],
         },
         {
-            company: "PivotalPath (Gallatin Advisers)",
+            name: "PivotalPath (Gallatin Advisers)",
             position: "Software Engineer",
-            website: "https://www.pivotalpath.com/",
+            url: "https://www.pivotalpath.com/",
             startDate: "2013-07-01",
             endDate: "2015-03-20",
             summary:
                 "PivotalPath is a hedge fund intelligence organization built by a team of experienced allocators and technologists. The firm evaluates investments from an allocator's perspective and provides comprehensive ratings on 1,500+ funds, accounting for over 90% of global hedge fund assets.",
-            location: {
-                address: "",
-                postalCode: "",
-                city: "",
-                countryCode: "",
-                region: "",
-            },
             highlights: [
                 "First engineer hire; built and designed codebase.",
                 "Developed client facing platform for accessing our hedge fund research.",
@@ -154,20 +119,13 @@ const resume = {
             pictures: ["images/logo-pivotalpath.jpg"],
         },
         {
-            company: "Maimonides Medical Center",
+            name: "Maimonides Medical Center",
             position: "Medical Records Clerk",
-            website: "https://www.maimonidesmed.org/",
+            url: "https://www.maimonidesmed.org/",
             startDate: "2011-07",
             endDate: "2011-09",
             summary:
                 "The Hospital Information Services Department of Maimonides Medical Center is responsible for maintaining the medical records of patients.",
-            location: {
-                address: "",
-                postalCode: "",
-                city: "",
-                countryCode: "",
-                region: "",
-            },
             highlights: [
                 "Maintain and organize medical records.",
                 "Identify medical records that are incomplete and coordinate with physicians for reviews.",
@@ -181,7 +139,7 @@ const resume = {
         {
             organization: "",
             position: "",
-            website: "",
+            url: "",
             startDate: "",
             endDate: "",
             summary: "",
@@ -191,21 +149,23 @@ const resume = {
     education: [
         {
             institution: "Stony Brook University",
+            url: "https://www.stonybrook.edu/",
             area: "Computer Science",
             studyType: "Bachelor",
-            startDate: "2009-08",
-            endDate: "2013-05",
-            gpa: "3.46",
+            startDate: "2009-08-31",
+            endDate: "2013-05-22",
+            score: "3.46",
             courses: [],
             pictures: ["images/logo-stony-brook-university.png"],
         },
         {
             institution: "Stony Brook University",
+            url: "https://www.stonybrook.edu/",
             area: "Applied Mathematics and Statistics",
             studyType: "Bachelor",
-            startDate: "2009-08",
-            endDate: "2013-05",
-            gpa: "3.46",
+            startDate: "2009-08-31",
+            endDate: "2013-05-22",
+            score: "3.46",
             courses: [],
             pictures: ["images/logo-stony-brook-university.png"],
         },
@@ -218,12 +178,20 @@ const resume = {
             summary: "",
         },
     ],
+    certificates: [
+        {
+            name: "",
+            date: "",
+            issuer: "",
+            url: "",
+        },
+    ],
     publications: [
         {
             name: "",
             publisher: "",
             releaseDate: "",
-            website: "",
+            url: "",
             summary: "",
         },
     ],
@@ -250,6 +218,20 @@ const resume = {
         {
             name: "",
             reference: "",
+        },
+    ],
+    projects: [
+        {
+            name: "",
+            description: "",
+            highlights: [""],
+            keywords: [""],
+            startDate: "",
+            endDate: "",
+            url: "",
+            roles: [""],
+            entity: "",
+            type: "",
         },
     ],
 };

@@ -1,10 +1,6 @@
-<script>
-    // propTypes = {
-    //     startDate: PropTypes.string,
-    //     endDate: PropTypes.string
-    // };
-    export let startDate;
-    export let endDate;
+<script lang="ts">
+    export let startDate: string;
+    export let endDate: string;
 
     const startYear = parseInt(startDate);
     const endYear = parseInt(endDate) || "";
