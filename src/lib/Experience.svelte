@@ -34,7 +34,7 @@
                         <p class="image is-128x128">
                             <img
                                 alt={`${company} logo ${index}`}
-                                src={`/public/${picturePath}`}
+                                src={picturePath}
                             />
                         </p>
                     {/each}

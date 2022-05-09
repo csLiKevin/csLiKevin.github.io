@@ -1,4 +1,9 @@
 <script>
+    import Fa from "svelte-fa";
+    import { faGithubSquare } from "@fortawesome/free-brands-svg-icons/faGithubSquare";
+    import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
+    import { faCommentAlt } from "@fortawesome/free-regular-svg-icons/faCommentAlt";
+
     // propTypes = {
     //     label: PropTypes.string,
     //     location: PropTypes.shape({
@@ -24,14 +29,14 @@
 
     const { city, countryCode, region } = location;
 
-    function getNetworkIconClasses(network) {
+    function getNetworkIcon(network) {
         switch (network.toLowerCase()) {
             case "github":
-                return "fab fa-github-square";
+                return faGithubSquare;
             case "linkedin":
-                return "fab fa-linkedin";
+                return faLinkedin;
             default:
-                return "far fa-comment-alt";
+                return faCommentAlt;
         }
     }
 </script>
@@ -51,7 +56,7 @@
                         rel="noopener noreferrer"
                         target="_blank"
                     >
-                        <i class={`${getNetworkIconClasses(network)} fa-lg`} />
+                        <Fa icon={getNetworkIcon(network)} size="lg" />
                     </a>
                 {/each}
             </div>
