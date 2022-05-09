@@ -8,7 +8,7 @@
 </script>
 
 <div class={`is-daterange has-text-weight-bold is-size-5 ${colorClass}`}>
-    {`${startYear} - ${endYear}`}
+    {`${startYear}${endYear && " - "}${endYear}`}
 </div>
 
 <style>
