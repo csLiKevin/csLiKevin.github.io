@@ -37,7 +37,7 @@ const resume: Resume = {
             summary:
                 "Meta builds technologies that help people connect, find communities, and grow businesses.",
             highlights: [],
-            pictures: ["images/logo-meta.png"],
+            images: ["images/logo-meta.png"],
         },
         {
             name: "Compass (Urban Compass)",
@@ -59,7 +59,7 @@ const resume: Resume = {
                 "Revamped authentication flow by adding new login methods and a new user interface. Login success rate went from 82% to over 95%.",
                 "Fixed security issues in our authentication flows.",
             ],
-            pictures: ["images/logo-compass.jpg"],
+            images: ["images/logo-compass.jpg"],
         },
         {
             name: "The Orchard (Sony Music Entertainment)",
@@ -79,7 +79,7 @@ const resume: Resume = {
                 "Moved platform towards a single page app structure to improve performance.",
                 "Migrated test suite to Jest.",
             ],
-            pictures: [
+            images: [
                 "images/logo-the-orchard.png",
                 "images/logo-sony-music.jpg",
             ],
@@ -99,7 +99,7 @@ const resume: Resume = {
                 "Created a template system to decrease the time between onboarding and when a client creates their first campaign.",
                 "Modernized platform by creating UI based on Material design written with React and Redux. Replaced old monolithic code with microservices that were easier to maintain.",
             ],
-            pictures: ["images/logo-wyng.png", "images/logo-offerpop.png"],
+            images: ["images/logo-wyng.png", "images/logo-offerpop.png"],
         },
         {
             name: "PivotalPath (Gallatin Advisers)",
@@ -116,7 +116,7 @@ const resume: Resume = {
                 "Added functionality for clients to download personalized PDFs of hedge fund profiles.",
                 "Setup cloud infrastructure and automation for our platform.",
             ],
-            pictures: ["images/logo-pivotalpath.jpg"],
+            images: ["images/logo-pivotalpath.jpg"],
         },
         {
             name: "Maimonides Medical Center",
@@ -132,7 +132,7 @@ const resume: Resume = {
                 "Assist physicians in locating their patient's medical records.",
                 "Handle sensitive medical information professionally.",
             ],
-            pictures: ["images/logo-maimonides-medical-center.png"],
+            images: ["images/logo-maimonides-medical-center.png"],
         },
     ],
     volunteer: [
@@ -156,7 +156,7 @@ const resume: Resume = {
             endDate: "2013-05-22",
             score: "3.46",
             courses: [],
-            pictures: ["images/logo-stony-brook-university.png"],
+            images: ["images/logo-stony-brook-university.png"],
         },
         {
             institution: "Stony Brook University",
@@ -167,7 +167,7 @@ const resume: Resume = {
             endDate: "2013-05-22",
             score: "3.46",
             courses: [],
-            pictures: ["images/logo-stony-brook-university.png"],
+            images: ["images/logo-stony-brook-university.png"],
         },
     ],
     awards: [

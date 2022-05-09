@@ -10,11 +10,11 @@
 <section class="section">
     <div class="container">
         <h1 class="title">Experience</h1>
-        {#each work as { name, position, url, startDate, endDate, summary, highlights, pictures }}
+        {#each work as { name, position, url, startDate, endDate, summary, highlights, images }}
             <article class="media">
                 <figure class="has-text-centered media-left">
                     <DateRange {endDate} {startDate} />
-                    {#each pictures as picturePath, index}
+                    {#each images as picturePath, index}
                         <p class="image is-128x128">
                             <img
                                 alt={`${name} logo ${index}`}

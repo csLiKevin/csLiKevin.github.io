@@ -7,11 +7,11 @@
 <section class="section">
     <div class="container">
         <h1 class="title">Education</h1>
-        {#each education as { institution, url, area, studyType, startDate, endDate, score, pictures }}
+        {#each education as { institution, url, area, studyType, startDate, endDate, score, images }}
             <article class="media">
                 <figure class="has-text-centered media-left">
                     <DateRange {endDate} {startDate} />
-                    {#each pictures as picturePath, index}
+                    {#each images as picturePath, index}
                         <p class="image is-96x96 is-inline-flex">
                             <img
                                 alt={`${institution} logo ${index}`}

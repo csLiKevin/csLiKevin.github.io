@@ -35,7 +35,7 @@ type Job = {
     endDate: string;
     summary: string;
     highlights: string[];
-    pictures: string[]; // Custom field
+    images: string[]; // Custom field
 };
 
 type Organization = {
@@ -57,7 +57,7 @@ type School = {
     endDate: string;
     score: string;
     courses: string[];
-    pictures: string[]; // Custom field
+    images: string[]; // Custom field
 };
 
 type Award = {
