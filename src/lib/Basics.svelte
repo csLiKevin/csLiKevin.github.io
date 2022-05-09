@@ -42,6 +42,7 @@
                         target="_blank"
                     >
                         <Fa icon={getNetworkIcon(network)} size="lg" />
+                        <span class="is-sr-only">{network}</span>
                     </a>
                 {/each}
             </div>
