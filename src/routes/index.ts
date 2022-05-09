@@ -32,8 +32,8 @@ const resume = {
             company: "Meta",
             position: "Senior Software Engineer",
             website: "https://about.facebook.com/",
-            startDate: "2019-08-26",
-            endDate: "2022-05-06",
+            startDate: "2022-05-16",
+            endDate: "",
             summary:
                 "Meta builds technologies that help people connect, find communities, and grow businesses.",
             location: {
@@ -229,83 +229,9 @@ const resume = {
     ],
     skills: [
         {
-            name: "Python",
-            level: "Master",
-            keywords: [
-                "Django",
-                "Django REST Framework",
-                "Flask",
-                "Selenium",
-                "SQLAlchemy",
-            ],
-        },
-        {
-            name: "Javascript",
-            level: "Advanced",
-            keywords: [
-                "AngularJS",
-                "jQuery",
-                "NodeJS",
-                "MobX",
-                "React",
-                "Redux",
-            ],
-        },
-        {
-            name: "Java",
-            level: "Advanced",
-            keywords: ["libGDX"],
-        },
-        {
-            name: "Web Development",
-            level: "Advanced",
-            keywords: [
-                "Bootstrap",
-                "CSS",
-                "HTML",
-                "Less",
-                "Material Design",
-                "XML",
-            ],
-        },
-        {
-            name: "Amazon Web Services",
-            level: "Intermediate",
-            keywords: [
-                "API Gateway",
-                "CloudWatch",
-                "EC2",
-                "Elastic Beanstalk",
-                "Elasticsearch Service",
-                "Kinesis",
-                "Lambda",
-                "RDS",
-                "Route 53",
-                "S3",
-            ],
-        },
-        {
-            name: "Git",
-            level: "Intermediate",
-            keywords: ["GitHub"],
-        },
-        {
-            name: "Linux",
-            level: "Intermediate",
-            keywords: ["Linux Mint", "Ubuntu"],
-        },
-        {
-            name: "MySQL",
-            level: "Intermediate",
-        },
-        {
-            name: "SQLite",
-            level: "Intermediate",
-        },
-        {
-            name: "Other",
+            name: "",
             level: "",
-            keywords: ["Apache", "Docker", "Elasticsearch", "Jenkins", "Nginx"],
+            keywords: [""],
         },
     ],
     languages: [
