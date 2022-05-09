@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "dev": "svelte-kit dev",
-        "build": "svelte-kit build",
+        "build": "svelte-kit build && echo kevinli.us > docs/CNAME",
         "package": "svelte-kit package",
         "preview": "svelte-kit preview",
         "prepare": "svelte-kit sync",
