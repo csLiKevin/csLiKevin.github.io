@@ -18,6 +18,7 @@
                         <p class="image is-128x128">
                             <img
                                 alt={`${name} logo ${index}`}
+                                loading="lazy"
                                 src={picturePath}
                             />
                         </p>

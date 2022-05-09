@@ -15,6 +15,7 @@
                         <p class="image is-96x96 is-inline-flex">
                             <img
                                 alt={`${institution} logo ${index}`}
+                                loading="lazy"
                                 src={picturePath}
                             />
                         </p>
