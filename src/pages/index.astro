@@ -1,0 +1,27 @@
+---
+import "bulmaswatch/lux/bulmaswatch.min.css";
+import Layout from '../layouts/Layout.astro';
+import Basics from "../components/Basics.svelte";
+import Experience from "../components/Experience.svelte";
+import Education from "../components/Education.svelte";
+import {resume} from "../resume";
+---
+
+<Layout title={resume.basics.name}>	
+	<div class="lux">
+		<Basics info={resume.basics} />
+		<Experience work={resume.work} />
+		<Education education={resume.education} />
+	</div>
+</Layout>
+
+<style>
+	.image + .image {
+        margin-top: 1rem;
+    }
+
+    /* Lux theme overrides. */
+    .lux {
+        background-color: hsl(0, 0%, 96%);
+    }
+</style>

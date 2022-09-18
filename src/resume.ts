@@ -1,4 +1,4 @@
-const resume: Resume = {
+export const resume: Resume = {
     basics: {
         name: "Kevin Li",
         label: "Software Engineer",
@@ -235,9 +235,3 @@ const resume: Resume = {
         },
     ],
 };
-
-export async function get() {
-    return {
-        body: { resume },
-    };
-}
