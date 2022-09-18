@@ -132,4 +132,3 @@ type Resume = {
     readonly references: Reference[];
     readonly projects: Project[];
 };
-

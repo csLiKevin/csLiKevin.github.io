@@ -4,7 +4,10 @@
     export let work: Job[];
 
     // Sanitize the job name.
-    $: work = work.map(job => ({...job, name: job.name.replace(/ *\([^)]*\) */g, "")}));
+    $: work = work.map((job) => ({
+        ...job,
+        name: job.name.replace(/ *\([^)]*\) */g, ""),
+    }));
 </script>
 
 <section class="section">
