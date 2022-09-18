@@ -1,38 +1,33 @@
 {
     "name": "resume",
-    "version": "4.0.0",
+    "type": "module",
+    "version": "5.0.0",
     "private": true,
     "scripts": {
-        "dev": "svelte-kit dev",
-        "build": "svelte-kit build && echo kevinli.us > docs/CNAME",
-        "package": "svelte-kit package",
-        "preview": "svelte-kit preview",
-        "prepare": "svelte-kit sync",
-        "check": "svelte-check --tsconfig ./tsconfig.json",
-        "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-        "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .prettierignore .",
-        "format": "prettier --write --plugin-search-dir=. .",
-        "start": "npm run dev"
+        "astro": "astro",
+        "build": "astro build",
+        "check": "astro check && svelte-check --tsconfig ./tsconfig.json",
+        "deploy": "vercel",
+        "dev": "astro dev",
+        "format": "prettier --write .",
+        "preview": "astro preview",
+        "start": "astro dev"
+    },
+    "dependencies": {
+        "@astrojs/svelte": "^1.0.0",
+        "@fortawesome/free-brands-svg-icons": "^6.2.0",
+        "@fortawesome/free-regular-svg-icons": "^6.2.0",
+        "astro": "^1.2.6",
+        "astro-compress": "^1.0.8",
+        "bulmaswatch": "^0.8.1",
+        "svelte": "^3.50.1",
+        "svelte-fa": "^3.0.3"
     },
     "devDependencies": {
-        "@fortawesome/free-brands-svg-icons": "^6.1.1",
-        "@fortawesome/free-regular-svg-icons": "^6.1.1",
-        "@sveltejs/adapter-static": "1.0.0-next.29",
-        "@sveltejs/kit": "1.0.0-next.326",
-        "@typescript-eslint/eslint-plugin": "^5.10.1",
-        "@typescript-eslint/parser": "^5.10.1",
-        "bulmaswatch": "^0.8.1",
-        "eslint": "^8.12.0",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-svelte3": "^4.0.0",
-        "prettier": "^2.5.1",
-        "prettier-plugin-svelte": "^2.5.0",
-        "svelte": "^3.44.0",
-        "svelte-check": "^2.2.6",
-        "svelte-fa": "^2.4.0",
-        "svelte-preprocess": "^4.10.1",
-        "tslib": "^2.3.1",
-        "typescript": "~4.6.2"
-    },
-    "type": "module"
+        "prettier": "^2.7.1",
+        "prettier-plugin-astro": "^0.5.4",
+        "prettier-plugin-svelte": "^2.7.0",
+        "svelte-check": "^2.9.0",
+        "vercel": "^28.2.5"
+    }
 }
