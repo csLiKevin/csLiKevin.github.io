@@ -17,6 +17,7 @@
         "@fortawesome/free-brands-svg-icons": "^6.2.0",
         "@fortawesome/free-regular-svg-icons": "^6.2.0",
         "astro": "^1.2.6",
+        "astro-compress": "^1.0.8",
         "bulmaswatch": "^0.8.1",
         "svelte": "^3.50.1",
         "svelte-fa": "^3.0.3"
