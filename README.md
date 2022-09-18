@@ -1,6 +1,6 @@
 # Personal Web Page
 
-https://kevinli.us **·** https://csLiKevin.github.io
+https://kevinli.us
 
 ##### Information
 
@@ -14,6 +14,7 @@ Project for generating an online resume. Resume information is defined using the
 
 -   `npm run build` - Build production site.
 -   `npm run check` - Check for linting errors.
+-   `npm run deploy -- --prod` - Deploy site to production.
 -   `npm run format` - Format source files.
 -   `npm run preview` - Preview the production build.
 -   `npm start` - Start the development server and watch for changes.
