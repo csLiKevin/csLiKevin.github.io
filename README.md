@@ -1,28 +1,34 @@
 # Personal Web Page
 
-https://kevinli.us
+[![deploy](https://github.com/csLiKevin/csLiKevin.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/csLiKevin/csLiKevin.github.io/actions/workflows/deploy.yml)
 
-##### Information
+https://kevinli.us **·** https://csLiKevin.github.io
 
-Project for generating an online resume. Resume information is defined using the [JSON Resume Schema](https://jsonresume.org/schema/).
+Project for generating an online resume.
 
-##### Files
+Resume information is defined using the [JSON Resume Schema](https://jsonresume.org/schema/).
 
--   [`resume.ts`](src/resume.ts) - The `resume` constant contains resume data you want to share on a public web page.
+Add resume data you want to share on a public web page in [`resume.ts`](src/resume.ts).
 
-##### Commands
+Deployed via [Github Actions](.github/workflows/deploy.yml).
 
--   `npm run build` - Build production site.
--   `npm run check` - Check for linting errors.
--   `npm run deploy` - Deploy to Preview environment.
--   `npm run deploy -- --prod` - Deploy to Production environment.
--   `npm run format` - Format source files.
--   `npm run preview` - Preview the production build.
--   `npm start` - Start the development server and watch for changes.
+Developed on [NodeJS v16.17.0](https://nodejs.org/en/download/).
 
-##### Instructions
+## Commands
 
-1. Clone this repository.
-2. Navigate to the root directory of this repository.
-3. Install [NodeJS v16.17.0](https://nodejs.org/en/download/).
-4. Run `npm install`.
+```bash
+# Build production site.
+`npm run build`
+
+# Check for linting errors.
+`npm run check`
+
+# Format source files.
+`npm run format`
+
+# Preview the production build.
+`npm run preview`
+
+# Start the development server and watch for changes.
+`npm start`
+```
