@@ -1,0 +1,60 @@
+---
+import DateRange from "./DateRange.astro";
+
+export interface Props {
+    education: School[];
+}
+
+const { education } = Astro.props;
+---
+
+<section class="section">
+    <div class="container">
+        <h1 class="title">Education</h1>
+        {
+            education.map(
+                ({
+                    institution,
+                    url,
+                    area,
+                    studyType,
+                    startDate,
+                    endDate,
+                    score,
+                    images,
+                }) => (
+                    <article class="media">
+                        <figure class="has-text-centered media-left">
+                            <DateRange
+                                endDate={endDate}
+                                startDate={startDate}
+                            />
+                            {images.map((picturePath, index) => (
+                                <p class="image is-96x96 is-inline-flex">
+                                    <img
+                                        alt={`${institution} logo ${index}`}
+                                        loading="lazy"
+                                        src={picturePath}
+                                    />
+                                </p>
+                            ))}
+                        </figure>
+                        <div class="media-content">
+                            <h1 class="title is-size-4">
+                                <a
+                                    href={url}
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                                    {institution}
+                                </a>
+                            </h1>
+                            <h2 class="subtitle">{`${studyType} of ${area}`}</h2>
+                            <p>{`GPA: ${score}`}</p>
+                        </div>
+                    </article>
+                )
+            )
+        }
+    </div>
+</section>

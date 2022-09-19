@@ -1,0 +1,71 @@
+---
+import DateRange from "./DateRange.astro";
+
+export interface Props {
+    work: Job[];
+}
+
+function removeParenthesis(name: string) {
+    return name.replace(/ *\([^)]*\) */g, "");
+}
+
+const { work } = Astro.props;
+---
+
+<section class="section">
+    <div class="container">
+        <h1 class="title">Experience</h1>
+        {
+            work.map(
+                ({
+                    name,
+                    position,
+                    url,
+                    startDate,
+                    endDate,
+                    summary,
+                    highlights,
+                    images,
+                }) => (
+                    <article class="media">
+                        <figure class="has-text-centered media-left">
+                            <DateRange
+                                endDate={endDate}
+                                startDate={startDate}
+                            />
+                            {images.map((picturePath, index) => (
+                                <p class="image is-128x128">
+                                    <img
+                                        alt={`${name} logo ${index}`}
+                                        loading="lazy"
+                                        src={picturePath}
+                                    />
+                                </p>
+                            ))}
+                        </figure>
+                        <div class="media-content">
+                            <h1 class="title is-size-4">
+                                <a
+                                    href={url}
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                                    {removeParenthesis(name)}
+                                </a>
+                            </h1>
+                            <h2 class="subtitle">{position}</h2>
+                            <p>{summary}</p>
+                            <div class="content">
+                                <ul>
+                                    {highlights.map((highlight) => (
+                                        <li>{highlight}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                )
+            )
+        }
+    </div>
+</section>
