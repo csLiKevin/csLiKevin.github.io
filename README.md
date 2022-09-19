@@ -14,7 +14,8 @@ Project for generating an online resume. Resume information is defined using the
 
 -   `npm run build` - Build production site.
 -   `npm run check` - Check for linting errors.
--   `npm run deploy -- --prod` - Deploy site to production.
+-   `npm run deploy` - Deploy to Preview environment.
+-   `npm run deploy -- --prod` - Deploy to Production environment.
 -   `npm run format` - Format source files.
 -   `npm run preview` - Preview the production build.
 -   `npm start` - Start the development server and watch for changes.

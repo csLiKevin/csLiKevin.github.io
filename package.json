@@ -9,7 +9,7 @@
         "check": "astro check && svelte-check --tsconfig ./tsconfig.json",
         "deploy": "vercel",
         "dev": "astro dev",
-        "format": "prettier --write .",
+        "format": "prettier --tab-width 4 --write .",
         "preview": "astro preview",
         "start": "astro dev"
     },
