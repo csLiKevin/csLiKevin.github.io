@@ -1,6 +1,8 @@
 ---
 import DateRange from "./DateRange.astro";
+import FAIcon from "./FAIcon.astro";
 import { Image } from "@astrojs/image/components";
+import { faSquareCaretUp } from "@fortawesome/free-regular-svg-icons/faSquareCaretUp";
 
 export interface Props {
     work: Job[];
@@ -13,7 +15,7 @@ function removeParenthesis(name: string) {
 const { work } = Astro.props;
 ---
 
-<section class="container mx-auto p-4 text-neutral-100">
+<section class="container mx-auto p-4 text-neutral-100" id="experience">
     <h1 class="text-4xl font-bold tracking-tight mb-4">Experience</h1>
     {
         work.map(
@@ -73,4 +75,10 @@ const { work } = Astro.props;
             )
         )
     }
+    <a class="text-right flex justify-end" href="#basics">
+        <FAIcon
+            className="animate-pulse h-8 text-emerald-200 hover:text-emerald-200 hover:shadow-lg hover:shadow-emerald-200/25"
+            icon={faSquareCaretUp}
+        />
+    </a>
 </section>

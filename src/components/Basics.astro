@@ -2,6 +2,7 @@
 import FAIcon from "./FAIcon.astro";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons/faGithubSquare";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
+import { faSquareCaretDown } from "@fortawesome/free-regular-svg-icons/faSquareCaretDown";
 import { faWindowMaximize } from "@fortawesome/free-regular-svg-icons/faWindowMaximize";
 
 export interface Props {
@@ -40,8 +41,10 @@ if (url) {
 ---
 
 <section
-    class="h-screen p-4 flex flex-col items-center justify-center container mx-auto"
+    class="h-screen p-4 flex flex-col items-center container mx-auto"
+    id="basics"
 >
+    <div class="grow"></div>
     <div>
         <h1 class="mt-9 text-6xl font-bold tracking-tight text-neutral-100">
             {name}
@@ -69,4 +72,11 @@ if (url) {
             </div>
         </div>
     </div>
+    <div class="grow"></div>
+    <a class="" href="#experience">
+        <FAIcon
+            className="animate-bounce h-8 text-emerald-200 hover:text-emerald-200 hover:shadow-lg hover:shadow-emerald-200/25"
+            icon={faSquareCaretDown}
+        />
+    </a>
 </section>
