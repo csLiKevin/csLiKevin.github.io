@@ -13,6 +13,7 @@
         "start": "astro dev"
     },
     "dependencies": {
+        "@astrojs/image": "^0.7.1",
         "@astrojs/tailwind": "^2.0.1",
         "@fortawesome/free-brands-svg-icons": "^6.2.0",
         "@fortawesome/free-regular-svg-icons": "^6.2.0",

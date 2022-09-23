@@ -1,4 +1,5 @@
 ---
+import { Image } from "@astrojs/image/components";
 import DateRange from "./DateRange.astro";
 
 export interface Props {
@@ -25,11 +26,14 @@ const { education } = Astro.props;
                 <div class="flex mb-4 gap-4 flex-col md:flex-row">
                     <div class="flex-none w-48 flex flex-row md:flex-col justify-center gap-4 mx-auto">
                         {images.map((picturePath, index) => (
-                            <img
-                                class="object-cover rounded-xl"
+                            <Image
                                 alt={`${institution} logo ${index}`}
+                                class="object-cover rounded-xl w-full"
+                                format="webp"
+                                height="192"
                                 loading="lazy"
                                 src={picturePath}
+                                width="192"
                             />
                         ))}
                     </div>
