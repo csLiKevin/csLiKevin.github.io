@@ -1,0 +1,38 @@
+---
+import type { IconDefinition } from "@fortawesome/fontawesome-common-types";
+
+export interface Props {
+    className: string;
+    icon: IconDefinition;
+}
+
+const {
+    icon: {
+        icon: [width, height, , , iconPathData],
+    },
+    className,
+} = Astro.props;
+---
+
+<svg
+    class={className}
+    viewBox={`0 0 ${width} ${height}`}
+    aria-hidden="true"
+    role="img"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <g
+        transform={`translate(${width / 2} ${height / 2})`}
+        transform-origin={`${width / 4} 0`}
+    >
+        {
+            typeof iconPathData === "string" && (
+                <path
+                    d={iconPathData}
+                    fill="currentColor"
+                    transform={`translate(${width / -2} ${height / -2})`}
+                />
+            )
+        }
+    </g>
+</svg>

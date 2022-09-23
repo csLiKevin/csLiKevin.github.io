@@ -8,53 +8,52 @@ export interface Props {
 const { education } = Astro.props;
 ---
 
-<section class="section">
-    <div class="container">
-        <h1 class="title">Education</h1>
-        {
-            education.map(
-                ({
-                    institution,
-                    url,
-                    area,
-                    studyType,
-                    startDate,
-                    endDate,
-                    score,
-                    images,
-                }) => (
-                    <article class="media">
-                        <figure class="has-text-centered media-left">
+<section class="container mx-auto p-4 text-neutral-100">
+    <h1 class="text-4xl font-bold tracking-tight mb-4">Education</h1>
+    {
+        education.map(
+            ({
+                institution,
+                url,
+                area,
+                studyType,
+                startDate,
+                endDate,
+                score,
+                images,
+            }) => (
+                <div class="flex mb-4 gap-4 flex-col md:flex-row">
+                    <div class="flex-none w-48 flex flex-row md:flex-col justify-center gap-4 mx-auto">
+                        {images.map((picturePath, index) => (
+                            <img
+                                class="object-cover rounded-xl"
+                                alt={`${institution} logo ${index}`}
+                                loading="lazy"
+                                src={picturePath}
+                            />
+                        ))}
+                    </div>
+                    <div class="flex-auto p-8 rounded-xl bg-neutral-200 text-slate-800">
+                        <div class="text-right">
                             <DateRange
                                 endDate={endDate}
                                 startDate={startDate}
                             />
-                            {images.map((picturePath, index) => (
-                                <p class="image is-96x96 is-inline-flex">
-                                    <img
-                                        alt={`${institution} logo ${index}`}
-                                        loading="lazy"
-                                        src={picturePath}
-                                    />
-                                </p>
-                            ))}
-                        </figure>
-                        <div class="media-content">
-                            <h1 class="title is-size-4">
-                                <a
-                                    href={url}
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                >
-                                    {institution}
-                                </a>
-                            </h1>
-                            <h2 class="subtitle">{`${studyType} of ${area}`}</h2>
-                            <p>{`GPA: ${score}`}</p>
                         </div>
-                    </article>
-                )
+                        <h1 class="text-xl text-slate-800/95 font-bold">
+                            <a
+                                href={url}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                {institution}
+                            </a>
+                        </h1>
+                        <h2 class="text-emerald-800 text-lg font-semibold">{`${studyType} of ${area}`}</h2>
+                        <p class="m-4">{`GPA: ${score}`}</p>
+                    </div>
+                </div>
             )
-        }
-    </div>
+        )
+    }
 </section>

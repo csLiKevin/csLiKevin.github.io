@@ -7,17 +7,9 @@ export interface Props {
 const { endDate, startDate } = Astro.props;
 const startYear = parseInt(startDate);
 const endYear = parseInt(endDate) || "";
-const colorClass = endYear ? "has-text-grey-light" : "has-text-success";
+const colorClass = endYear ? "text-slate-500" : "text-emerald-500";
 ---
 
-<div class={`is-daterange has-text-weight-bold is-size-5 ${colorClass}`}>
-    {`${startYear}${endYear && " - "}${endYear}`}
+<div class={`font-bold text-xl ${colorClass}`}>
+    {`${startYear}${endYear && ` - ${endYear}`}`}
 </div>
-
-<style>
-    .is-daterange {
-        margin-bottom: 0.2rem;
-        margin-left: 0.2rem;
-        margin-right: 0.2rem;
-    }
-</style>

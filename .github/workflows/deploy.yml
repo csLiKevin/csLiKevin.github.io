@@ -55,7 +55,7 @@ jobs:
                   path: |
                       dist
                       .vercel
-                  key: ${{ runner.os }}-vercel-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.astro', '**.[jt]s', '**.[jt]sx', '**.svelte') }}
+                  key: ${{ runner.os }}-vercel-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.astro', '**.[jt]s', '**.[jt]sx') }}
                   restore-keys: |
                       ${{ runner.os }}-vercel-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
 

@@ -12,60 +12,61 @@ function removeParenthesis(name: string) {
 const { work } = Astro.props;
 ---
 
-<section class="section">
-    <div class="container">
-        <h1 class="title">Experience</h1>
-        {
-            work.map(
-                ({
-                    name,
-                    position,
-                    url,
-                    startDate,
-                    endDate,
-                    summary,
-                    highlights,
-                    images,
-                }) => (
-                    <article class="media">
-                        <figure class="has-text-centered media-left">
+<section class="container mx-auto p-4 text-neutral-100">
+    <h1 class="text-4xl font-bold tracking-tight mb-4">Experience</h1>
+    {
+        work.map(
+            ({
+                name,
+                position,
+                url,
+                startDate,
+                endDate,
+                summary,
+                highlights,
+                images,
+            }) => (
+                <div class="flex mb-4 gap-4 flex-col md:flex-row">
+                    <div class="flex-none w-48 flex flex-row md:flex-col justify-center gap-4 mx-auto">
+                        {images.map((picturePath, index) => (
+                            <img
+                                class="object-cover rounded-xl"
+                                alt={`${name} logo ${index}`}
+                                loading="lazy"
+                                src={picturePath}
+                            />
+                        ))}
+                    </div>
+                    <div class="flex-auto p-8 rounded-xl bg-neutral-200 text-slate-800 text-lg">
+                        <div class="text-right">
                             <DateRange
                                 endDate={endDate}
                                 startDate={startDate}
                             />
-                            {images.map((picturePath, index) => (
-                                <p class="image is-128x128">
-                                    <img
-                                        alt={`${name} logo ${index}`}
-                                        loading="lazy"
-                                        src={picturePath}
-                                    />
-                                </p>
-                            ))}
-                        </figure>
-                        <div class="media-content">
-                            <h1 class="title is-size-4">
-                                <a
-                                    href={url}
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                >
-                                    {removeParenthesis(name)}
-                                </a>
-                            </h1>
-                            <h2 class="subtitle">{position}</h2>
-                            <p>{summary}</p>
-                            <div class="content">
-                                <ul>
-                                    {highlights.map((highlight) => (
-                                        <li>{highlight}</li>
-                                    ))}
-                                </ul>
-                            </div>
                         </div>
-                    </article>
-                )
+                        <h1 class="text-2xl text-slate-800/95 font-bold">
+                            <a
+                                href={url}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                {removeParenthesis(name)}
+                            </a>
+                        </h1>
+                        <h2 class="text-emerald-800 text-xl font-semibold">
+                            {position}
+                        </h2>
+                        <p class="m-4">{summary}</p>
+                        <div class="m-4">
+                            <ul class="list-disc list-inside">
+                                {highlights.map((highlight) => (
+                                    <li>{highlight}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             )
-        }
-    </div>
+        )
+    }
 </section>

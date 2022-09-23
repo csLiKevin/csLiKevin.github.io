@@ -1,8 +1,8 @@
 ---
-import Fa from "svelte-fa";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons/faGithubSquare";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
-import { faCommentAlt } from "@fortawesome/free-regular-svg-icons/faCommentAlt";
+import { faWindowMaximize } from "@fortawesome/free-regular-svg-icons/faWindowMaximize";
+import FAIcon from "./FAIcon.astro";
 
 export interface Props {
     info: Basics;
@@ -15,7 +15,7 @@ function getNetworkIcon(network: string) {
         case "linkedin":
             return faLinkedin;
         default:
-            return faCommentAlt;
+            return faWindowMaximize;
     }
 }
 
@@ -28,26 +28,41 @@ const {
         url,
     },
 } = Astro.props;
+
+const allProfiles = [...profiles];
+if (url) {
+    allProfiles.push({
+        network: "website",
+        url,
+        username: "",
+    });
+}
 ---
 
-<section class="hero is-fullheight is-primary">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="is-size-1 title">{name}</h1>
-            <h2 class="is-marginless-bottom is-size-4 subtitle">{label}</h2>
+<section
+    class="h-screen p-4 flex flex-col items-center justify-center container mx-auto"
+>
+    <div>
+        <h1 class="mt-9 text-6xl font-bold tracking-tight text-neutral-100">
+            {name}
+        </h1>
+        <div class="text-emerald-200/50 tracking-tight mx-2">
+            <div>{label}</div>
             <div>{`${city}, ${region}, ${countryCode}`}</div>
-            <a href={url}>{url}</a>
-            <div>
+            <div class="mt-1 flex gap-1">
                 {
-                    profiles.map(({ network, url }) => (
+                    allProfiles.map(({ network, url }) => (
                         <a
-                            class="icon is-medium"
+                            class="mx-1"
                             href={url}
                             rel="noopener noreferrer"
                             target="_blank"
                         >
-                            <Fa icon={getNetworkIcon(network)} size="lg" />
-                            <span class="is-sr-only">{network}</span>
+                            <FAIcon
+                                className="h-6 hover:text-emerald-200 hover:shadow-lg hover:shadow-emerald-200/25"
+                                icon={getNetworkIcon(network)}
+                            />
+                            <span class="sr-only">{network}</span>
                         </a>
                     ))
                 }
@@ -55,9 +70,3 @@ const {
         </div>
     </div>
 </section>
-
-<style>
-    .is-marginless-bottom {
-        margin-bottom: 0 !important;
-    }
-</style>

@@ -1,27 +1,15 @@
 ---
-import "bulmaswatch/lux/bulmaswatch.min.css";
 import Basics from "../components/Basics.astro";
 import Education from "../components/Education.astro";
 import Experience from "../components/Experience.astro";
 import Layout from "../layouts/Layout.astro";
 import { resume } from "../resume";
+
+const { basics, work, education } = resume;
 ---
 
-<Layout title={resume.basics.name}>
-    <div class="lux">
-        <Basics info={resume.basics} />
-        <Experience work={resume.work} />
-        <Education education={resume.education} />
-    </div>
+<Layout title={basics.name}>
+    <Basics info={basics} />
+    <Experience work={work} />
+    <Education education={education} />
 </Layout>
-
-<style is:global>
-    .image + .image {
-        margin-top: 1rem;
-    }
-
-    /* Lux theme overrides. */
-    .lux {
-        background-color: hsl(0, 0%, 96%);
-    }
-</style>
