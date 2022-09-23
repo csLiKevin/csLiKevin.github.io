@@ -27,12 +27,12 @@ const { work } = Astro.props;
                 highlights,
                 images,
             }) => (
-                <div class="flex mb-4 gap-4 flex-col md:flex-row">
-                    <div class="flex-none w-48 flex flex-row md:flex-col justify-center gap-4 mx-auto">
+                <div class="mb-4 flex flex-col gap-4 md:flex-row">
+                    <div class="mx-auto flex w-48 flex-none flex-row justify-center gap-4 md:flex-col">
                         {images.map((picturePath, index) => (
                             <Image
                                 alt={`${name} logo ${index}`}
-                                class="object-cover rounded-xl w-full"
+                                class="w-full rounded-xl object-cover"
                                 format="webp"
                                 height="192"
                                 loading="lazy"
@@ -41,14 +41,14 @@ const { work } = Astro.props;
                             />
                         ))}
                     </div>
-                    <div class="flex-auto p-8 rounded-xl bg-neutral-200 text-slate-800 text-lg">
+                    <div class="flex-auto rounded-xl bg-neutral-200 p-8 text-lg text-slate-800">
                         <div class="text-right">
                             <DateRange
                                 endDate={endDate}
                                 startDate={startDate}
                             />
                         </div>
-                        <h1 class="text-2xl text-slate-800/95 font-bold">
+                        <h1 class="text-2xl font-bold text-slate-800/95">
                             <a
                                 href={url}
                                 rel="noopener noreferrer"
@@ -57,12 +57,12 @@ const { work } = Astro.props;
                                 {removeParenthesis(name)}
                             </a>
                         </h1>
-                        <h2 class="text-emerald-800 text-xl font-semibold">
+                        <h2 class="text-xl font-semibold text-emerald-800">
                             {position}
                         </h2>
                         <p class="m-4">{summary}</p>
                         <div class="m-4">
-                            <ul class="list-disc list-inside">
+                            <ul class="list-inside list-disc">
                                 {highlights.map((highlight) => (
                                     <li>{highlight}</li>
                                 ))}
