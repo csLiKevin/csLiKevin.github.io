@@ -7,9 +7,9 @@ export interface Props {
 const { endDate, startDate } = Astro.props;
 const startYear = parseInt(startDate);
 const endYear = parseInt(endDate) || "";
-const colorClass = endYear ? "text-slate-500" : "text-emerald-500";
+const colorClass = endYear ? "text-slate-500" : "text-success";
 ---
 
-<div class={`font-bold text-xl ${colorClass}`}>
+<div class={`font-bold ${colorClass}`}>
     {`${startYear}${endYear && ` - ${endYear}`}`}
 </div>

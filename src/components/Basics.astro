@@ -40,29 +40,20 @@ if (url) {
 }
 ---
 
-<section
-    class="h-screen p-4 flex flex-col items-center container mx-auto"
-    id="basics"
->
-    <div class="grow"></div>
-    <div>
-        <h1 class="mt-9 text-6xl font-bold tracking-tight text-neutral-100">
-            {name}
-        </h1>
-        <div class="text-emerald-200/50 tracking-tight mx-2">
-            <div>{label}</div>
-            <div>{`${city}, ${region}, ${countryCode}`}</div>
-            <div class="mt-1 flex gap-1">
+<section class="hero min-h-screen relative" id="basics">
+    <div class="hero-content">
+        <div class="max-w-md">
+            <h1 class="mb-1">{name}</h1>
+            <div class="leading-tight">{label}</div>
+            <div class="leading-tight">
+                {`${city}, ${region}, ${countryCode}`}
+            </div>
+            <div class="mt-2 flex">
                 {
                     allProfiles.map(({ network, url }) => (
-                        <a
-                            class="mx-1"
-                            href={url}
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
+                        <a href={url} rel="noopener noreferrer" target="_blank">
                             <FAIcon
-                                className="h-6 hover:text-emerald-200 hover:shadow-lg hover:shadow-emerald-200/25"
+                                className="mx-2 h-6 hover:text-primary-focus hover:shadow-lg hover:shadow-primary-focus/25"
                                 icon={getNetworkIcon(network)}
                             />
                             <span class="sr-only">{network}</span>
@@ -72,11 +63,12 @@ if (url) {
             </div>
         </div>
     </div>
-    <div class="grow"></div>
-    <a aria-label="Scroll to content" href="#experience">
+    <a class="absolute bottom-0" href="#experience">
         <FAIcon
-            className="animate-bounce h-8 text-emerald-200 hover:text-emerald-200 hover:shadow-lg hover:shadow-emerald-200/25"
+            className="animate-bounce h-8 mb-2 hover:text-primary-focus hover:shadow-lg hover:shadow-primary-focus/25"
             icon={faSquareCaretDown}
         />
+        <span class="sr-only">Scroll to content</span>
     </a>
 </section>
+<div class="divider"></div>

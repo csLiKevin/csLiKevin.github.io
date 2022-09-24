@@ -15,8 +15,8 @@ function removeParenthesis(name: string) {
 const { work } = Astro.props;
 ---
 
-<section class="container mx-auto p-4 text-neutral-100" id="experience">
-    <h1 class="text-4xl font-bold tracking-tight mb-4">Experience</h1>
+<section class="container mx-auto pt-1" id="experience">
+    <h2 class="font-bold">Experience</h2>
     {
         work.map(
             ({
@@ -30,7 +30,7 @@ const { work } = Astro.props;
                 images,
             }) => (
                 <div class="mb-4 flex flex-col gap-4 md:flex-row">
-                    <div class="mx-auto flex w-48 flex-none flex-row justify-center gap-4 md:flex-col">
+                    <div class="max-w-48 mx-auto flex flex-none flex-row justify-center gap-4 md:flex-col">
                         {images.map((picturePath, index) => (
                             <Image
                                 alt={`${name} logo ${index}`}
@@ -43,42 +43,46 @@ const { work } = Astro.props;
                             />
                         ))}
                     </div>
-                    <div class="flex-auto rounded-xl bg-neutral-200 p-8 text-lg text-slate-800">
-                        <div class="text-right">
-                            <DateRange
-                                endDate={endDate}
-                                startDate={startDate}
-                            />
-                        </div>
-                        <h1 class="text-2xl font-bold text-slate-800/95">
-                            <a
-                                href={url}
-                                rel="noopener noreferrer"
-                                target="_blank"
-                            >
-                                {removeParenthesis(name)}
-                            </a>
-                        </h1>
-                        <h2 class="text-xl font-semibold text-emerald-800">
-                            {position}
-                        </h2>
-                        <p class="m-4">{summary}</p>
-                        <div class="m-4">
-                            <ul class="list-inside list-disc">
-                                {highlights.map((highlight) => (
-                                    <li>{highlight}</li>
-                                ))}
-                            </ul>
+                    <div class="card flex-auto bg-base-100 shadow-xl">
+                        <div class="card-body">
+                            <div class="card-actions justify-end">
+                                <DateRange
+                                    endDate={endDate}
+                                    startDate={startDate}
+                                />
+                            </div>
+                            <h3 class="card-title my-0 text-2xl leading-tight">
+                                <a
+                                    href={url}
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                                    {removeParenthesis(name)}
+                                </a>
+                            </h3>
+                            <h4 class="card-title my-0 leading-tight">
+                                {position}
+                            </h4>
+                            <div>{summary}</div>
+                            <div>
+                                <ul class="my-1 list-disc">
+                                    {highlights.map((highlight) => (
+                                        <li class="my-0">{highlight}</li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             )
         )
     }
-    <a aria-label="Scroll to the top" class="text-right flex justify-end" href="#basics">
+    <a class="flex justify-end" href="#basics">
         <FAIcon
-            className="animate-pulse h-8 text-emerald-200 hover:text-emerald-200 hover:shadow-lg hover:shadow-emerald-200/25"
+            className="mb-2 h-8 animate-pulse hover:text-primary-focus hover:shadow-lg hover:shadow-primary-focus/25"
             icon={faSquareCaretUp}
         />
+        <span class="sr-only">Scroll to top</span>
     </a>
 </section>
+<div class="divider"></div>

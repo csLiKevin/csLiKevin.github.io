@@ -31,7 +31,7 @@ export const resume: Resume = {
         {
             name: "Meta (Facebook)",
             position: "Senior Software Engineer",
-            url: "https://about.facebook.com/",
+            url: "https://about.meta.com/",
             startDate: "2022-05-16",
             endDate: "",
             summary:

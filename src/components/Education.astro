@@ -11,8 +11,8 @@ export interface Props {
 const { education } = Astro.props;
 ---
 
-<section class="container mx-auto p-4 text-neutral-100" id="education">
-    <h1 class="text-4xl font-bold tracking-tight mb-4">Education</h1>
+<section class="container mx-auto pt-1" id="education">
+    <h2 class="font-bold">Education</h2>
     {
         education.map(
             ({
@@ -26,7 +26,7 @@ const { education } = Astro.props;
                 images,
             }) => (
                 <div class="mb-4 flex flex-col gap-4 md:flex-row">
-                    <div class="mx-auto flex w-48 flex-none flex-row justify-center gap-4 md:flex-col">
+                    <div class="max-w-48 mx-auto flex flex-none flex-row justify-center gap-4 md:flex-col">
                         {images.map((picturePath, index) => (
                             <Image
                                 alt={`${institution} logo ${index}`}
@@ -39,33 +39,37 @@ const { education } = Astro.props;
                             />
                         ))}
                     </div>
-                    <div class="flex-auto rounded-xl bg-neutral-200 p-8 text-slate-800">
-                        <div class="text-right">
-                            <DateRange
-                                endDate={endDate}
-                                startDate={startDate}
-                            />
+                    <div class="card flex-auto bg-base-100 shadow-xl">
+                        <div class="card-body">
+                            <div class="card-actions justify-end">
+                                <DateRange
+                                    endDate={endDate}
+                                    startDate={startDate}
+                                />
+                            </div>
+                            <h1 class="card-title my-0 text-2xl leading-tight">
+                                <a
+                                    href={url}
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                                    {institution}
+                                </a>
+                            </h1>
+                            <h2 class="card-title my-0 leading-tight">{`${studyType} of ${area}`}</h2>
+                            <p>{`GPA: ${score}`}</p>
                         </div>
-                        <h1 class="text-xl font-bold text-slate-800/95">
-                            <a
-                                href={url}
-                                rel="noopener noreferrer"
-                                target="_blank"
-                            >
-                                {institution}
-                            </a>
-                        </h1>
-                        <h2 class="text-lg font-semibold text-emerald-800">{`${studyType} of ${area}`}</h2>
-                        <p class="m-4">{`GPA: ${score}`}</p>
                     </div>
                 </div>
             )
         )
     }
-    <a aria-label="Scroll to the top" class="text-right flex justify-end" href="#basics">
+    <a class="flex justify-end" href="#basics">
         <FAIcon
-            className="animate-pulse h-8 text-emerald-200 hover:text-emerald-200 hover:shadow-lg hover:shadow-emerald-200/25"
+            className="mb-2 animate-pulse h-8 hover:text-primary-focus hover:shadow-lg hover:shadow-primary-focus/25"
             icon={faSquareCaretUp}
         />
+        <span class="sr-only">Scroll to top</span>
     </a>
 </section>
+<div class="divider"></div>
