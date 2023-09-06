@@ -1,7 +1,7 @@
 ---
 import DateRange from "./DateRange.astro";
 import FAIcon from "./FAIcon.astro";
-import { Image } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import { faSquareCaretUp } from "@fortawesome/free-regular-svg-icons/faSquareCaretUp";
 
 export interface Props {
@@ -26,12 +26,11 @@ const { education } = Astro.props;
                 images,
             }) => (
                 <div class="mb-4 flex flex-col gap-4 md:flex-row">
-                    <div class="max-w-48 mx-auto flex flex-none flex-row justify-center gap-4 md:flex-col">
+                    <div class="mx-auto flex flex-none flex-row justify-center gap-4 md:flex-col">
                         {images.map((picturePath, index) => (
                             <Image
                                 alt={`${institution} logo ${index}`}
-                                class="w-full rounded-xl object-cover"
-                                format="webp"
+                                class="max-w-[192px] rounded-xl object-cover"
                                 height="192"
                                 loading="lazy"
                                 src={picturePath}
