@@ -12,7 +12,14 @@ Add resume data you want to share on a public web page in [`resume.ts`](src/resu
 
 Deployed via [Github Actions](.github/workflows/deploy.yml).
 
-Developed on [NodeJS v16.17.0](https://nodejs.org/en/download/).
+## Prerequisites
+
+[Podman v5.4.2](https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md)
+
+[Dev Containers Extension](vscode:extension/ms-vscode-remote.remote-containers)
+
+
+Set [Docker Path](vscode://settings/dev.containers.dockerPath) to `podman`
 
 ## Commands
 
