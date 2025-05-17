@@ -17,9 +17,9 @@
         "@astrojs/tailwind": "^5.0.0",
         "@fortawesome/free-brands-svg-icons": "^6.4.2",
         "@fortawesome/free-regular-svg-icons": "^6.4.2",
+        "@playform/compress": "^0.1.9",
         "@tailwindcss/typography": "^0.5.10",
         "astro": "^5.7.13",
-        "astro-compress": "^2.0.15",
         "daisyui": "^3.7.3",
         "tailwindcss": "^3.3.3",
         "typescript": "^5.8.3"
