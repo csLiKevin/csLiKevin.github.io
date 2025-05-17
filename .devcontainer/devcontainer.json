@@ -9,7 +9,12 @@
     "postCreateCommand": "./.devcontainer/post-create-command.sh",
     "customizations": {
         "vscode": {
-            "extensions": ["astro-build.astro-vscode", "jock.svg"],
+            "extensions": [
+                "astro-build.astro-vscode",
+                "bradlc.vscode-tailwindcss",
+                "csstools.postcss",
+                "jock.svg"
+            ],
             "settings": {
                 "terminal.integrated.defaultProfile.linux": "zsh"
             }
