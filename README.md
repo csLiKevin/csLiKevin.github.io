@@ -18,7 +18,6 @@ Deployed via [Github Actions](.github/workflows/deploy.yml).
 
 [Dev Containers Extension](vscode:extension/ms-vscode-remote.remote-containers)
 
-
 Set [Docker Path](vscode://settings/dev.containers.dockerPath) to `podman`
 
 ## Commands

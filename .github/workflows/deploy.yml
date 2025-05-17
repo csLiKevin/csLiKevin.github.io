@@ -2,7 +2,7 @@ name: deploy
 
 on:
     push:
-        branches: 
+        branches:
             - master
     # Allows you to run this workflow manually from the Actions tab on Github.
     workflow_dispatch:
