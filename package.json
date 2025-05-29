@@ -18,10 +18,10 @@
         "@fortawesome/free-regular-svg-icons": "^6.7.2",
         "@playform/compress": "^0.1.9",
         "@tailwindcss/typography": "^0.5.16",
-        "@tailwindcss/vite": "^4.1.7",
-        "astro": "^5.7.13",
-        "daisyui": "^5.0.35",
-        "tailwindcss": "^4.1.7",
+        "@tailwindcss/vite": "^4.1.8",
+        "astro": "^5.8.1",
+        "daisyui": "^5.0.42",
+        "tailwindcss": "^4.1.8",
         "typescript": "^5.8.3"
     },
     "devDependencies": {
