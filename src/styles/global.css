@@ -1,8 +1,6 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 @plugin "daisyui" {
-    themes:
-        retro,
-        luxury --prefersdark;
+    themes: retro --default;
     logs: false;
 }
