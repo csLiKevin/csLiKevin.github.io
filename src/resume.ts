@@ -10,7 +10,7 @@ export const resume: Resume = {
         location: {
             address: "",
             postalCode: "",
-            city: "Brooklyn",
+            city: "Staten Island",
             countryCode: "US",
             region: "New York",
         },
@@ -29,14 +29,37 @@ export const resume: Resume = {
     },
     work: [
         {
+            name: "Datavant",
+            position: "Senior Software Engineer",
+            url: "https://www.datavant.com/about",
+            startDate: "2024-01-22",
+            endDate: "",
+            summary:
+                "Datavant operates the largest connector of identified and de-identified health data in the world, turning fragmented data into intelligence that drives action and impact for our customers.",
+            highlights: [
+                "Designed and delivered multi-dataset query functionality for clean room environments, enabling analysis of multiterabyte-scale datasets without data movement; partnered with security stakeholders and presented architecture to NIH for approval.",
+                "Led design and implementation of privacy controls for a natural language-driven PySpark query interface, enforcing output constraints to reduce reidentification risk.",
+                "Developed customer-facing documentation for Clean Room features and workflows and provided live customer support, incorporating feedback to improve usability and reduce support overhead.",
+                "Implemented a Snowflake Native App for tokenization, enabling in-place processing and eliminating the need to move sensitive data.",
+                "Led onboarding and mentored engineers on feature design and ownership (including overlap reporting), improving ramp time and code quality.",
+            ],
+            images: ["/images/logo-datavant.jpg"],
+        },
+        {
             name: "Meta (Facebook)",
             position: "Senior Software Engineer",
             url: "https://about.meta.com/",
             startDate: "2022-05-16",
-            endDate: "",
+            endDate: "2023-07-21",
             summary:
                 "Meta builds technologies that help people connect, find communities, and grow businesses.",
-            highlights: [],
+            highlights: [
+                "Built feature for progressively hiding chat threads that violate terms of service.",
+                "Audit feasibility of adding a new participant type (page) to group chat threads.",
+                "Add ability for pages to participate and perform admin actions in group chat threads. Specifically allowing pages to invite and be invited to a thread, route chat notifications to admins of the page, and log required data for our data scientists.",
+                "Add the ability for pages to feature public channels on their profile.",
+                "Experimented with adding a shortcut to the about page from a user’s profile details. Preliminary results indicate a 7% increase in public channel daily active users.",
+            ],
             images: ["/images/logo-meta.png"],
         },
         {
