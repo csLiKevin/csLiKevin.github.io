@@ -13,22 +13,22 @@
         "start": "astro dev"
     },
     "dependencies": {
-        "@astrojs/check": "^0.9.4",
-        "@fortawesome/free-brands-svg-icons": "^6.7.2",
-        "@fortawesome/free-regular-svg-icons": "^6.7.2",
-        "@playform/compress": "^0.1.9",
-        "@tailwindcss/typography": "^0.5.16",
-        "@tailwindcss/vite": "^4.1.8",
-        "astro": "^5.8.1",
-        "daisyui": "^5.0.42",
-        "tailwindcss": "^4.1.8",
-        "typescript": "^5.8.3"
+        "@astrojs/check": "^0.9.8",
+        "@fortawesome/free-brands-svg-icons": "^7.2.0",
+        "@fortawesome/free-regular-svg-icons": "^7.2.0",
+        "@playform/compress": "^0.2.3",
+        "@tailwindcss/typography": "^0.5.19",
+        "@tailwindcss/vite": "^4.2.4",
+        "astro": "^6.1.9",
+        "daisyui": "^5.5.19",
+        "tailwindcss": "^4.2.4",
+        "typescript": "^6.0.3"
     },
     "devDependencies": {
-        "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-        "prettier": "^3.5.3",
+        "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+        "prettier": "^3.8.3",
         "prettier-plugin-astro": "^0.14.1",
-        "prettier-plugin-tailwindcss": "^0.6.11"
+        "prettier-plugin-tailwindcss": "^0.8.0"
     },
     "prettier": {
         "plugins": [
